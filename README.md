@@ -1,7 +1,5 @@
 # RAG Project - Week 2
 
-This project is part of the 4-week plan (lok.tex) to build a portfolio for AI/ML/Data Science internship applications.
-
 ## Objective
 
 Build a Retrieval-Augmented Generation (RAG) system for question answering over domain-specific documents.
