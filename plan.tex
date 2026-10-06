@@ -1,0 +1,252 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\geometry{margin=2.2cm}
+\setlist[itemize]{leftmargin=1.4em,itemsep=2pt,topsep=3pt}
+
+\title{RAG PLUi de Bordeaux Métropole -- plan de référence}
+\author{Projet portfolio -- M2 Informatique, parcours IA}
+\date{Version initiale : 6 octobre 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Objectif et périmètre}
+Construire un système RAG reproductible qui répond à des questions générales sur le règlement écrit du PLUi de Bordeaux Métropole, d'abord dans le chapitre UM8. Chaque réponse doit être appuyée par des citations vérifiables (document, article et page). Le projet doit mesurer séparément la qualité du retrieval et celle des réponses générées.
+
+Le système n'est pas un outil de conformité à une adresse ou à une parcelle. Il ne conclut pas qu'un projet est autorisé sur un terrain précis. Si la réponse dépend d'un plan graphique, d'une prescription localisée ou d'une annexe absente du corpus, il doit le dire et s'abstenir. Le PADD et le POA ne seront ajoutés que s'ils sont nécessaires au contexte, jamais comme substituts au règlement opposable.
+
+\section*{Architecture prévisionnelle du pipeline}
+Le schéma ci-dessous montre l'architecture visée, pas une implémentation déjà réalisée. L'indexation est une étape hors ligne; le service FastAPI charge ensuite les index produits. L'API LLM est appelée uniquement au moment de répondre, avec une clé fournie par environnement et jamais intégrée à l'image Docker.
+
+\begin{figure}[htbp]
+\centering
+\small
+\textbf{A. Préparation du corpus et indexation (hors ligne)}\\[3pt]
+\begin{tikzpicture}[
+  node distance=3.5mm,
+  box/.style={draw,rounded corners,align=center,text width=2.65cm,minimum height=10mm,inner sep=3pt},
+  optional/.style={box,dashed},
+  flow/.style={-{Latex[length=2mm]},thick}
+]
+\node[box] (src) {Règlement écrit\\+ manifeste de sources};
+\node[box,right=of src] (parse) {Parsing PDF\\+ contrôle qualité};
+\node[box,right=of parse] (chunks) {Découpage par article\\IDs + métadonnées};
+\node[box,right=of chunks] (embed) {Embeddings\\Sentence Transformers};
+\node[box,right=of embed] (index) {Index FAISS dense\\BM25 facultatif};
+\draw[flow] (src) -- (parse);
+\draw[flow] (parse) -- (chunks);
+\draw[flow] (chunks) -- (embed);
+\draw[flow] (embed) -- (index);
+\end{tikzpicture}
+
+\vspace{7mm}
+\textbf{B. Question--réponse servie par FastAPI/Docker (en ligne)}\\[3pt]
+\begin{tikzpicture}[
+  node distance=2.5mm,
+  box/.style={draw,rounded corners,align=center,text width=1.95cm,minimum height=12mm,inner sep=3pt},
+  flow/.style={-{Latex[length=2mm]},thick}
+]
+\node[box] (question) {Question\\utilisateur};
+\node[box,right=of question] (api) {FastAPI\\\texttt{/ask}};
+\node[box,right=of api] (retrieval) {Retrieval\\FAISS / hybride};
+\node[box,right=of retrieval] (context) {Top-k chunks\\source + article + page};
+\node[box,right=of context] (llm) {Prompt\\API LLM, modèle fixe};
+\node[box,right=of llm] (guard) {Contrôle des citations\\+ abstention};
+\node[box,right=of guard] (answer) {Réponse JSON\\texte + sources};
+\draw[flow] (question) -- (api);
+\draw[flow] (api) -- (retrieval);
+\draw[flow] (retrieval) -- (context);
+\draw[flow] (context) -- (llm);
+\draw[flow] (llm) -- (guard);
+\draw[flow] (guard) -- (answer);
+\end{tikzpicture}
+
+\vspace{7mm}
+\textbf{C. Évaluation et tests (hors chemin utilisateur)}\\[3pt]
+\begin{tikzpicture}[
+  node distance=7mm,
+  box/.style={draw,rounded corners,align=center,text width=4.1cm,minimum height=11mm,inner sep=3pt},
+  flow/.style={-{Latex[length=2mm]},thick}
+]
+\node[box] (gold) {Jeu gelé de 20--30 questions\\passages attendus / sans réponse};
+\node[box,right=of gold] (retrievaleval) {Évaluation retrieval\\Recall@k + MRR};
+\node[box,right=of retrievaleval] (generationeval) {Audit des réponses\\fidélité + citations + abstention};
+\node[box,below=of gold] (fake) {Client LLM simulé\\réponses déterministes};
+\node[box,right=of fake] (tests) {Tests unitaires et API\\aucune requête payante};
+\node[box,right=of tests] (assertions) {Assertions\\citations + abstention + erreurs};
+\draw[flow] (gold) -- (retrievaleval);
+\draw[flow] (retrievaleval) -- (generationeval);
+\draw[flow] (fake) -- (tests);
+\draw[flow] (tests) -- (assertions);
+\end{tikzpicture}
+\caption{Architecture cible; BM25 est ajouté uniquement à la phase 8, et le service/API est livré dans la phase API/Docker.}
+\end{figure}
+
+\paragraph{Référence unique.} Ce fichier \texttt{plan.tex}, à la racine du projet, est la référence de planification. L'ancienne checklist \texttt{useful files/project\_plan.tex} est historique et n'est pas normative. À la fin de chaque phase, mettre à jour ce plan et \texttt{journal.md}. Ne commencer aucune phase suivante sans autorisation explicite de l'étudiant. Les échanges disponibles sont consignés dans \texttt{conversation\_log.md} sans reconstituer les messages manquants.
+
+\section*{Décisions de cadrage}
+\begin{itemize}
+  \item Zone de départ : UM8, choix encore soumis à validation explicite après l'audit de phase 0. Les questions seront limitées au texte écrit et aux dispositions communes effectivement incluses.
+  \item Corpus : règlement écrit officiel seulement pour les réponses réglementaires. PADD/POA éventuels, uniquement comme contexte clairement identifié. Pas de téléchargement de l'archive complète de 1,91 Go.
+  \item Pipeline écrit à la main en Python, sans LangChain ni LlamaIndex au départ. Parsing avec préservation des articles, pages et titres; découpage d'abord par article/sous-article.
+  \item Retrieval initial recommandé : embeddings multilingues avec Sentence Transformers et index FAISS local. Chroma reste une alternative si la persistance/gestion de métadonnées le justifie; le choix sera vérifié par un test de phase 4.
+  \item Génération : une API hébergée, un seul identifiant de modèle fixe en configuration, plafond de dépense et limites de tokens. Le fournisseur, le modèle exact et le montant du plafond restent à choisir avant la première vraie requête. La clé sera stockée dans un fichier \texttt{.env} ignoré par Git; aucun secret dans le code ni les tests.
+  \item Tests automatisés : LLM simulé (faux client déterministe); les tests ordinaires ne font aucun appel réseau et ne consomment aucun budget.
+  \item Citations : le code résout les identifiants de chunks vers les sources et pages réelles; le LLM ne fabrique ni liens ni références.
+\end{itemize}
+
+\section*{Phases et critères de sortie}
+
+\subsection*{Phase 0 -- Cadrage, source et zone (1 h) -- audit réalisé, validation utilisateur en attente}
+\textbf{Objectif :} vérifier que le périmètre est faisable avant toute construction.
+\begin{itemize}
+  \item Lire le règlement écrit officiel et isoler le chapitre UM8.
+  \item Vérifier le nombre de sections exploitables, les dépendances aux plans/annexes et la présence des règles explicitement communes aux zones.
+  \item Fixer les limites du produit : questions générales sur le texte, aucune décision à l'échelle d'une parcelle; prévoir l'abstention quand une carte ou une annexe est indispensable.
+  \item Enregistrer URL, identifiant/version officielle, date de publication, date de consultation et empreinte SHA-256 du fichier.
+  \item Fixer l'architecture LLM hébergée, le principe de modèle unique, le plafond de dépense et les tests simulés; le fournisseur/modèle précis et le montant du plafond sont à approuver avant les appels réels.
+\end{itemize}
+\textbf{Livrable :} ce plan, une entrée Phase 0 dans le journal, une transcription disponible et une décision motivée sur UM8.\\
+\textbf{Réussite :} environ 25 questions non-parcellaires sont plausibles à partir de sections distinctes; les règles communes requises sont incluses; les questions nécessitant une information cartographique sont identifiées comme hors périmètre/abstention. L'étudiant valide le verrouillage de la zone.
+
+\subsection*{Phase 1 -- Constitution du corpus et manifeste (1,5 h) -- réalisée, manifeste créé et corpus identifié}
+\textbf{Objectif :} créer une liste de sources courte, vérifiable et reproductible.
+\begin{itemize}
+  \item Conserver le règlement écrit nécessaire; acquérir PADD/POA seulement si un besoin de contexte précis est formulé.
+  \item Créer un manifeste avec identifiant, titre, URL de téléchargement, version/date officielle, date de récupération, taille, SHA-256, statut légal et rôle (règle ou contexte).
+  \item Décider explicitement quels fichiers restent hors Git compte tenu de leur taille; ne jamais versionner une clé API.
+\end{itemize}
+\textbf{Livrable :} manifeste des sources et corpus brut identifié.\\
+\textbf{Réussite :} chaque source utilisée est traçable et son empreinte peut être recalculée; aucune archive massive n'est téléchargée.
+
+\subsection*{Phase 2 -- Parsing PDF et contrôle qualité (4 h) -- terminée}
+\textbf{Objectif :} extraire fidèlement les pages pertinentes malgré la mise en page réglementaire.
+\begin{itemize}
+  \item Comparer les extracteurs PDF sur des pages représentatives; contrôler accents, ordre de lecture, titres, tableaux, notes et numéros de page.
+  \item Isoler UM8 et les dispositions communes nécessaires sans mêler les articles d'autres zones.
+  \item Vérifier manuellement un échantillon couvrant chaque chapitre et consigner les corrections/limites d'extraction.
+  \item Réduire le corpus si les tableaux, renvois ou éléments graphiques ne sont pas exploitables proprement.
+\end{itemize}
+\textbf{Livrable :} texte extrait avec métadonnées de source/page/article et rapport de QA.\\
+\textbf{Réussite :} les passages échantillonnés correspondent au PDF; aucun défaut critique d'encodage, d'ordre ou de rattachement d'article ne subsiste sans traitement documenté.\\
+\textbf{Réalisé :} extraction UM8 (pages 300-350) avec PyPDF et pdfplumber; comparaison montrant 46/51 pages avec différences de mise en forme, 3/51 pages identiques; aucun problème d'encodage substantiel détecté; rapport QA créé.
+
+\subsection*{Phase 3 -- Chunking réglementaire (2 h)}
+\textbf{Objectif :} produire des unités qui respectent la structure juridique du document.
+\begin{itemize}
+  \item Découper par article/sous-article et sous-sections cohérentes, jamais au milieu d'une règle juste pour atteindre une taille fixe.
+  \item Garder titre, numéro d'article, page, zone, source et version dans les métadonnées; rattacher les listes et tableaux à leur règle.
+  \item Définir des identifiants stables à partir de la source/version/article/contenu; prévoir un chevauchement seulement si une règle longue doit être scindée.
+\end{itemize}
+\textbf{Livrable :} corpus de chunks inspectable et reproductible.\\
+\textbf{Réussite :} un lecteur peut remonter de chaque chunk à l'article et à la page, et les règles ne sont pas tronquées ou mélangées entre zones.
+
+\subsection*{Phase 4 -- Embeddings et retrieval dense de référence (2,5 h)}
+\textbf{Objectif :} établir un premier système de recherche sémantique mesurable.
+\begin{itemize}
+  \item Choisir et figer un modèle d'embeddings multilingue Sentence Transformers après un test sur des requêtes françaises.
+  \item Calculer les vecteurs, documenter normalisation et métrique, construire un index FAISS CPU reproductible.
+  \item Implémenter la recherche top-k avec retour des identifiants, scores et métadonnées; vérifier manuellement les premières requêtes.
+\end{itemize}
+\textbf{Livrable :} pipeline dense exécutable et index générable depuis le corpus.\\
+\textbf{Réussite :} mêmes entrées/version produisent les mêmes chunks et le même ordre de retrieval; les passages retournés sont inspectables.
+
+\subsection*{Phase 5 -- Jeu d'évaluation et métriques de retrieval (3,5 h)}
+\textbf{Objectif :} mesurer le retrieval avant d'ajuster les variantes.
+\begin{itemize}
+  \item Écrire 20--30 questions réalistes et des passages attendus (article/chunk) avant toute comparaison; diversifier articles et formulations.
+  \item Distinguer questions répondables du corpus et questions sans réponse / nécessitant un plan ou une annexe absente.
+  \item Geler le jeu d'évaluation et calculer Recall@5, Recall@10 et MRR pour la base dense; conserver les résultats par question.
+  \item \textbf{Décision développement : Créer un jeu de développement de ~10 questions séparé pour les expérimentations, en plus du jeu gelé de 20-30 questions.}
+\end{itemize}
+\textbf{Livrable :} jeu d'évaluation versionné avec vérité terrain et résultats initiaux.\\
+\textbf{Réussite :} toute question a une source attendue justifiée ou une étiquette sans réponse; les métriques se recalculent automatiquement. Les écarts faibles sont présentés comme incertains vu la petite taille du jeu.
+
+\subsection*{Phase 6 -- Recherche hybride BM25 + dense (1,5 h)}
+\textbf{Objectif :} tester si la recherche lexicale aide sur les numéros d'articles, termes précis et formulations réglementaires.
+\begin{itemize}
+  \item Ajouter BM25 sans remplacer le pipeline dense; fusionner les rangs (par exemple Reciprocal Rank Fusion).
+  \item Comparer dense et hybride sur le même jeu gelé avec Recall@5, Recall@10 et MRR; examiner les changements par question.
+  \item Garder l'hybride uniquement si le gain est utile et reproductible; rapporter aussi un résultat nul ou négatif.
+\end{itemize}
+\textbf{Livrable :} comparaison dense/hybride et décision.\\
+\textbf{Réussite :} comparaison calculée avec la même vérité terrain, sans régler la méthode sur le jeu de test après coup.
+
+\subsection*{Phase 7 -- Génération, citations, abstention et tests simulés (3 h)}
+\textbf{Objectif :} générer une réponse concise strictement fondée sur le contexte récupéré.
+\begin{itemize}
+  \item Implémenter un client LLM interchangeable, relié à un seul modèle hébergé dont l'identifiant est fixe en configuration; configurer plafond de coût, limites de tokens, timeout et erreurs.
+  \item Mettre la clé dans \texttt{.env} et vérifier que \texttt{.env} est ignoré par Git avant toute vraie clé.
+  \item Construire le prompt avec consigne de citer les sources fournies et de s'abstenir si le contexte est insuffisant ou cartographique.
+  \item Résoudre les citations à partir des métadonnées côté application; ne jamais faire confiance à une référence inventée par le modèle.
+  \item Écrire des tests unitaires avec un faux LLM pour réponses, erreurs, abstention, références inconnues et absence d'appels réseau.
+\end{itemize}
+\textbf{Livrable :} chaîne retrieval--génération avec citations et tests sans LLM réel.\\
+\textbf{Réussite :} chaque citation renvoie à un passage existant; une question hors corpus déclenche une abstention; la suite de tests passe sans clé ni connexion.
+
+\subsection*{Phase 8 -- Audit manuel de fidélité et des citations (2,25 h)}
+\textbf{Objectif :} vérifier la qualité de génération sans prétendre qu'une métrique automatique prouve la fidélité.
+\begin{itemize}
+  \item Auditer les réponses du jeu gelé avec une grille : affirmations appuyées, citation exacte, exhaustivité utile, abstention justifiée.
+  \item Noter chaque réponse conforme/partielle/non conforme; calculer taux de fidélité observée, précision des citations et justesse des abstentions.
+  \item Conserver quelques erreurs représentatives et leurs causes (retrieval, parsing, prompt, limite du corpus).
+\end{itemize}
+\textbf{Livrable :} audit annoté et synthèse chiffrée.\\
+\textbf{Réussite :} les chiffres sont traçables aux réponses auditées et les limites sont explicites; aucun résultat n'est présenté comme preuve juridique.
+
+\subsection*{Phase 9 -- Livraison FastAPI (2 h)}
+\textbf{Objectif :} rendre le système appelable et reproductible dans un conteneur.
+\begin{itemize}
+  \item Exposer \texttt{/ask} (question, réponse, citations, statut d'abstention) et un endpoint de santé.
+  \item Construire une image Docker et documenter configuration, variables, lancement et arrêt; ne pas embarquer \texttt{.env} ni clé dans l'image.
+  \item Tester l'API par HTTP avec le LLM simulé; contrôler les erreurs d'entrée, les erreurs du fournisseur et les réponses avec références.
+\end{itemize}
+\textbf{Livrable :} API FastAPI conteneurisée et test d'intégration automatisé.\\
+\textbf{Réussite :} lancement documenté depuis un clone propre; endpoint testé sans dépense LLM; aucun secret présent dans l'image ou le dépôt.
+
+\subsection*{Phase 10 -- Rapport, README et revue finale (1,5 h)}
+\textbf{Objectif :} présenter honnêtement ce qui fonctionne, ce qui est mesuré et ce qui ne l'est pas.
+\begin{itemize}
+  \item Mettre les chiffres réellement obtenus (Recall@k, MRR, audit génération, temps/coût observés) dans le README et les résultats.
+  \item Documenter installation, génération de l'index, tests, lancement API/Docker, sources et limites d'usage.
+  \item Refaire les tests à partir d'un environnement propre; vérifier citations, absence de secrets et cohérence entre code, métriques et journal.
+\end{itemize}
+\textbf{Livrable :} projet reproductible, README et synthèse d'évaluation.\\
+\textbf{Réussite :} un tiers peut lancer les tests et l'API selon les instructions; les chiffres affichés correspondent aux artefacts enregistrés.
+
+\section*{Temps estimé}
+\begin{center}
+\begin{tabular}{lr}
+Phase 0 & 1,0 h \\
+Phase 1 & 1,5 h \\
+Phase 2 & 4,0 h \\
+Phase 3 & 2,0 h \\
+Phase 4 & 2,5 h \\
+Phase 5 & 3,5 h \\
+Phase 6 & 1,5 h \\
+Phase 7 & 3,0 h \\
+Phase 8 & 2,25 h \\
+Phase 9 & 2,0 h \\
+Phase 10 & 1,5 h \\
+\textbf{Cœur du projet} & \textbf{24,75 h} \\
+\end{tabular}
+\end{center>
+Reranking facultatif : environ 1,5 h supplémentaire après la comparaison hybride, seulement si le cœur est terminé. Il sera mesuré sur le même jeu gelé; sinon il est sacrifié avant l'évaluation, les citations ou le déploiement.
+
+\section*{Règles de travail}
+\begin{enumerate}
+  \item Une phase à la fois : annoncer la phase et attendre l'autorisation explicite avant la suivante.
+  \item À la fin d'une phase, mettre à jour \texttt{plan.tex} et \texttt{journal.md}, y compris décisions, alternatives, incidents, résultats chiffrés et questions d'entretien.
+  \item Définir les réponses attendues avant de comparer les systèmes; ne pas optimiser sur le jeu final.
+  \item Distinguer retrieval, fidélité de génération et exactitude des citations; aucune métrique unique ne prouve la conformité juridique.
+  \item Rapporter honnêtement les échecs, gains nuls et incertitudes liés aux 20--30 questions.
+\end{enumerate}
+
+\end{document}

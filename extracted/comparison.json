@@ -1,0 +1,410 @@
+{
+  "300": {
+    "pypdf_length": 0,
+    "pdfplumber_length": 0,
+    "length_diff": 0,
+    "pypdf_has_content": false,
+    "pdfplumber_has_content": false,
+    "content_equal": true
+  },
+  "301": {
+    "pypdf_length": 8671,
+    "pdfplumber_length": 8610,
+    "length_diff": 61,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "302": {
+    "pypdf_length": 444,
+    "pdfplumber_length": 433,
+    "length_diff": 11,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "303": {
+    "pypdf_length": 3588,
+    "pdfplumber_length": 3541,
+    "length_diff": 47,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "304": {
+    "pypdf_length": 4123,
+    "pdfplumber_length": 4072,
+    "length_diff": 51,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "305": {
+    "pypdf_length": 4355,
+    "pdfplumber_length": 4306,
+    "length_diff": 49,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "306": {
+    "pypdf_length": 3020,
+    "pdfplumber_length": 2972,
+    "length_diff": 48,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "307": {
+    "pypdf_length": 3683,
+    "pdfplumber_length": 3624,
+    "length_diff": 59,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "308": {
+    "pypdf_length": 3489,
+    "pdfplumber_length": 3407,
+    "length_diff": 82,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "309": {
+    "pypdf_length": 3451,
+    "pdfplumber_length": 3401,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "310": {
+    "pypdf_length": 3724,
+    "pdfplumber_length": 3668,
+    "length_diff": 56,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "311": {
+    "pypdf_length": 3586,
+    "pdfplumber_length": 3534,
+    "length_diff": 52,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "312": {
+    "pypdf_length": 3982,
+    "pdfplumber_length": 3930,
+    "length_diff": 52,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "313": {
+    "pypdf_length": 4486,
+    "pdfplumber_length": 4427,
+    "length_diff": 59,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "314": {
+    "pypdf_length": 71,
+    "pdfplumber_length": 61,
+    "length_diff": 10,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "315": {
+    "pypdf_length": 3477,
+    "pdfplumber_length": 3427,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "316": {
+    "pypdf_length": 102,
+    "pdfplumber_length": 94,
+    "length_diff": 8,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "317": {
+    "pypdf_length": 2851,
+    "pdfplumber_length": 2802,
+    "length_diff": 49,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "318": {
+    "pypdf_length": 3255,
+    "pdfplumber_length": 3201,
+    "length_diff": 54,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "319": {
+    "pypdf_length": 2691,
+    "pdfplumber_length": 2647,
+    "length_diff": 44,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "320": {
+    "pypdf_length": 2289,
+    "pdfplumber_length": 2248,
+    "length_diff": 41,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "321": {
+    "pypdf_length": 3028,
+    "pdfplumber_length": 2978,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "322": {
+    "pypdf_length": 2447,
+    "pdfplumber_length": 2379,
+    "length_diff": 68,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "323": {
+    "pypdf_length": 3746,
+    "pdfplumber_length": 3691,
+    "length_diff": 55,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "324": {
+    "pypdf_length": 2279,
+    "pdfplumber_length": 2229,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "325": {
+    "pypdf_length": 3958,
+    "pdfplumber_length": 3897,
+    "length_diff": 61,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "326": {
+    "pypdf_length": 3888,
+    "pdfplumber_length": 3830,
+    "length_diff": 58,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "327": {
+    "pypdf_length": 3904,
+    "pdfplumber_length": 3854,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "328": {
+    "pypdf_length": 2709,
+    "pdfplumber_length": 2663,
+    "length_diff": 46,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "329": {
+    "pypdf_length": 3342,
+    "pdfplumber_length": 3292,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "330": {
+    "pypdf_length": 3694,
+    "pdfplumber_length": 3644,
+    "length_diff": 50,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "331": {
+    "pypdf_length": 3425,
+    "pdfplumber_length": 3369,
+    "length_diff": 56,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "332": {
+    "pypdf_length": 3541,
+    "pdfplumber_length": 3484,
+    "length_diff": 57,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "333": {
+    "pypdf_length": 3319,
+    "pdfplumber_length": 3266,
+    "length_diff": 53,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "334": {
+    "pypdf_length": 2183,
+    "pdfplumber_length": 2150,
+    "length_diff": 33,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "335": {
+    "pypdf_length": 3262,
+    "pdfplumber_length": 3208,
+    "length_diff": 54,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "336": {
+    "pypdf_length": 3224,
+    "pdfplumber_length": 3176,
+    "length_diff": 48,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "337": {
+    "pypdf_length": 3135,
+    "pdfplumber_length": 3081,
+    "length_diff": 54,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "338": {
+    "pypdf_length": 3966,
+    "pdfplumber_length": 3913,
+    "length_diff": 53,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "339": {
+    "pypdf_length": 3410,
+    "pdfplumber_length": 3361,
+    "length_diff": 49,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "340": {
+    "pypdf_length": 1089,
+    "pdfplumber_length": 1071,
+    "length_diff": 18,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "341": {
+    "pypdf_length": 0,
+    "pdfplumber_length": 0,
+    "length_diff": 0,
+    "pypdf_has_content": false,
+    "pdfplumber_has_content": false,
+    "content_equal": true
+  },
+  "342": {
+    "pypdf_length": 0,
+    "pdfplumber_length": 0,
+    "length_diff": 0,
+    "pypdf_has_content": false,
+    "pdfplumber_has_content": false,
+    "content_equal": true
+  },
+  "343": {
+    "pypdf_length": 8671,
+    "pdfplumber_length": 8610,
+    "length_diff": 61,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "344": {
+    "pypdf_length": 444,
+    "pdfplumber_length": 433,
+    "length_diff": 11,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "345": {
+    "pypdf_length": 3588,
+    "pdfplumber_length": 3541,
+    "length_diff": 47,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "346": {
+    "pypdf_length": 4123,
+    "pdfplumber_length": 4072,
+    "length_diff": 51,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "347": {
+    "pypdf_length": 4355,
+    "pdfplumber_length": 4306,
+    "length_diff": 49,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "348": {
+    "pypdf_length": 3020,
+    "pdfplumber_length": 2972,
+    "length_diff": 48,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "349": {
+    "pypdf_length": 3682,
+    "pdfplumber_length": 3624,
+    "length_diff": 58,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  },
+  "350": {
+    "pypdf_length": 3492,
+    "pdfplumber_length": 3407,
+    "length_diff": 85,
+    "pypdf_has_content": true,
+    "pdfplumber_has_content": true,
+    "content_equal": false
+  }
+}

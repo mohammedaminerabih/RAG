@@ -1,0 +1,33 @@
+# Large GIS files from PLUi dataset - do not version
+243300316_PLUi_20260505/**/*.shp
+243300316_PLUi_20260505/**/*.shx
+243300316_PLUi_20260505/**/*.dbf
+243300316_PLUi_20260505/**/*.prj
+243300316_PLUi_20260505/**/*.sbn
+243300316_PLUi_20260505/**/*.sbx
+243300316_PLUi_20260505/**/*.cpg
+243300316_PLUi_20260505/**/*.qmd
+# Python and environment
+.env
+venv/
+__pycache__/
+# Generated indexes
+*.index
+*.faiss
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.fls
+*.out
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+# Ignore entire PLUi directory except retained PDFs
+243300316_PLUi_20260505/
+!243300316_PLUi_20260505/**/*.pdf
+# Ignorer le fichier spécifique de règlement écrit (non versionné car trop lourd)
+data/243300316_reglement_20260505.pdf
