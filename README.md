@@ -1,31 +1,27 @@
-# RAG Project - Week 2
+# RAG Project - PLUi Bordeaux Métropole (Zone UM8)
 
 ## Objective
+Build a Retrieval-Augmented Generation (RAG) system for question answering over the written regulation of the Bordeaux Métropole PLUi, specifically focusing on the UM8 zoning district.
 
-Build a Retrieval-Augmented Generation (RAG) system for question answering over domain-specific documents.
-
-## Plan
-
-- Use LangChain or LlamaIndex + FAISS or Chroma for vector storage
-- Test different embedding models and chunking strategies
-- Add source attribution to responses
-- Create a simple interface with Streamlit or Gradio
-- Create a complete README with architecture diagrams and examples
+## Architecture & Stack
+This project intentionally avoids heavy frameworks like LangChain or LlamaIndex in favor of a raw, transparent pipeline.
+- **Extraction**: `pdfplumber` and `pypdf`
+- **Chunking**: Custom hierarchical legal parser (splits by articles and sections)
+- **Embedding/Retrieval**: Sentence Transformers + FAISS (Phase 4 - upcoming)
+- **Generation**: Direct API calls to a designated LLM with strict context constraints (Phase 6 - upcoming)
+- **Interface**: TBD (Streamlit / Gradio)
 
 ## Directory Structure
+- `data/` - Raw PLUi PDF (git-ignored due to size)
+- `extracted/` - Parsed text outputs from the PDF
+- `chunked/` - JSON chunks ready for vectorization
+- `tests/` - Test suite for the pipeline
+- `useful files/` - Legacy planning documents
+- `journal.md` - Complete chronological project log (in French)
+- `plan.tex` - LaTeX project management and architecture plan (in French)
+- `SOURCES.MANIFEST` - Traceability matrix for the legal data
 
-- `src/` - Source code
-- `data/` - Raw and processed documents
-- `models/` - Saved models or embeddings
-- `notebooks/` - Experimental notebooks
-- `results/` - Evaluation results and logs
-- `useful files/` - Documentation, interview preparation, logs, etc.
-
-## Next Steps
-
-1. Collect and preprocess documents
-2. Choose embedding model and vector store
-3. Implement retrieval pipeline
-4. Integrate with LLM (local or API)
-5. Build user interface
-6. Evaluate and refine
+## Current Status
+- ✅ **Phase 0 & 1**: Setup and Corpus validation
+- ✅ **Phase 2 & 3**: PDF Extraction and Regulatory Chunking (cleaned and tested)
+- ⏳ **Phase 4**: Vector Indexing

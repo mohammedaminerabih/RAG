@@ -1,133 +1,171 @@
 #!/usr/bin/env python3
 """
-Script pour extraire le chapitre UM8 du règlement PLUi de Bordeaux Métropole
-et réaliser un contrôle qualité de l'extraction.
+Extraction du chapitre UM8 du règlement PLUi de Bordeaux Métropole.
+
+Compare deux extracteurs PDF (pypdf et pdfplumber) et génère un rapport
+de contrôle qualité page par page.
 """
+
+import argparse
+import json
+import os
+import sys
+from datetime import datetime
 
 import pypdf
 import pdfplumber
-import pandas as pd
-import os
-import json
-from pathlib import Path
 
-def extract_with_pypdf(pdf_path, start_page, end_page):
-    """Extraire du texte avec PyPDF"""
+
+# --- Configuration par défaut --------------------------------------------------------
+
+DEFAULT_PDF = "data/243300316_reglement_20260505.pdf"
+DEFAULT_START_PAGE = 300
+DEFAULT_END_PAGE = 342  # UM9 commence page 343 — on s'arrête avant
+DEFAULT_OUTPUT_DIR = "extracted"
+
+
+# --- Fonctions d'extraction ----------------------------------------------------------
+
+def extract_with_pypdf(pdf_path: str, start_page: int, end_page: int) -> dict[int, str]:
+    """Extraire le texte page par page avec PyPDF."""
     text_by_page = {}
-    with open(pdf_path, 'rb') as file:
-        reader = pypdf.PdfReader(file)
-        for page_num in range(start_page-1, end_page):  # pages are 0-indexed
-            if page_num < len(reader.pages):
-                page = reader.pages[page_num]
-                text = page.extract_text()
-                text_by_page[page_num + 1] = text  # store with 1-indexed page numbers
+    try:
+        with open(pdf_path, "rb") as f:
+            reader = pypdf.PdfReader(f)
+            for page_num in range(start_page - 1, end_page):
+                if page_num < len(reader.pages):
+                    text_by_page[page_num + 1] = reader.pages[page_num].extract_text() or ""
+    except FileNotFoundError:
+        print(f"ERREUR : fichier introuvable — {pdf_path}", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"ERREUR PyPDF : {e}", file=sys.stderr)
+        sys.exit(1)
     return text_by_page
 
-def extract_with_pdfplumber(pdf_path, start_page, end_page):
-    """Extraire du texte avec pdfplumber"""
+
+def extract_with_pdfplumber(pdf_path: str, start_page: int, end_page: int) -> dict[int, str]:
+    """Extraire le texte page par page avec pdfplumber."""
     text_by_page = {}
-    with pdfplumber.open(pdf_path) as pdf:
-        for page_num in range(start_page-1, end_page):  # pages are 0-indexed
-            if page_num < len(pdf.pages):
-                page = pdf.pages[page_num]
-                text = page.extract_text()
-                text_by_page[page_num + 1] = text  # store with 1-indexed page numbers
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_num in range(start_page - 1, end_page):
+                if page_num < len(pdf.pages):
+                    text_by_page[page_num + 1] = pdf.pages[page_num].extract_text() or ""
+    except FileNotFoundError:
+        print(f"ERREUR : fichier introuvable — {pdf_path}", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"ERREUR pdfplumber : {e}", file=sys.stderr)
+        sys.exit(1)
     return text_by_page
 
-def compare_extractions(pypdf_text, pdfplumber_text):
-    """Comparer les extractions des deux méthodes"""
+
+# --- Comparaison et sauvegarde -------------------------------------------------------
+
+def compare_extractions(pypdf_text: dict, pdfplumber_text: dict) -> dict:
+    """Comparer les deux extractions page par page."""
     comparison = {}
-    all_pages = set(pypdf_text.keys()) | set(pdfplumber_text.keys())
-
-    for page_num in all_pages:
-        pypdf_content = pypdf_text.get(page_num, "")
-        pdfplumber_content = pdfplumber_text.get(page_num, "")
-
-        # Calculer quelques métriques de comparaison
-        comparison[page_num] = {
-            'pypdf_length': len(pypdf_content),
-            'pdfplumber_length': len(pdfplumber_content),
-            'length_diff': abs(len(pypdf_content) - len(pdfplumber_content)),
-            'pypdf_has_content': bool(pypdf_content.strip()),
-            'pdfplumber_has_content': bool(pdfplumber_content.strip()),
-            'content_equal': pypdf_content == pdfplumber_content
+    for page_num in sorted(set(pypdf_text) | set(pdfplumber_text)):
+        a = pypdf_text.get(page_num, "")
+        b = pdfplumber_text.get(page_num, "")
+        comparison[str(page_num)] = {
+            "pypdf_length": len(a),
+            "pdfplumber_length": len(b),
+            "length_diff": abs(len(a) - len(b)),
+            "content_equal": a == b,
         }
-
     return comparison
 
-def save_extracted_text(text_by_page, output_path, method_name):
-    """Sauvegarder le texte extrait"""
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(f"# Texte extrait avec {method_name}\n\n")
-        for page_num in sorted(text_by_page.keys()):
+def save_text(text_by_page: dict, path: str, method: str) -> None:
+    """Écrire le texte extrait dans un fichier avec marqueurs de page."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"# Texte extrait avec {method}\n\n")
+        for page_num in sorted(text_by_page):
             f.write(f"## Page {page_num}\n\n")
             f.write(text_by_page[page_num])
             f.write("\n\n---\n\n")
 
-def main():
-    pdf_path = "data/243300316_reglement_20260505.pdf"
 
-    # D'après le journal.md, UM8 occupe environ les pages PDF 301-340
-    # On va faire une extraction légèrement plus large pour être sûr
-    start_page = 300  # un peu avant pour s'assurer de ne pas manquer le début
-    end_page = 350    # un peu après pour s'assurer de ne pas manquer la fin
+# --- Validation de la frontière de zone ----------------------------------------------
 
-    print(f"Extraction du PDF: {pdf_path}")
-    print(f"Pages ciblées: {start_page} à {end_page}")
+def validate_zone_boundary(text_by_page: dict, zone_label: str = "Zone UM 8") -> list[int]:
+    """
+    Vérifier que chaque page contient bien le header de la zone attendue.
+    Retourne la liste des pages contenant un header de zone *différent*.
+    """
+    wrong_zone_pages = []
+    for page_num, text in text_by_page.items():
+        # Chercher n'importe quel header "Zone UM X"
+        if "Zone UM" in text and zone_label not in text:
+            wrong_zone_pages.append(page_num)
+    return wrong_zone_pages
 
-    # Extraire avec les deux méthodes
-    print("\nExtraction avec PyPDF...")
-    pypdf_text = extract_with_pypdf(pdf_path, start_page, end_page)
 
-    print("Extraction avec pdfplumber...")
-    pdfplumber_text = extract_with_pdfplumber(pdf_path, start_page, end_page)
+# --- Point d'entrée ------------------------------------------------------------------
 
-    # Comparer les extractions
-    print("\nComparaison des extractions...")
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Extraction du chapitre UM8 du PLUi")
+    parser.add_argument("--pdf", default=DEFAULT_PDF, help="Chemin du PDF source")
+    parser.add_argument("--start", type=int, default=DEFAULT_START_PAGE, help="Page de début (incluse)")
+    parser.add_argument("--end", type=int, default=DEFAULT_END_PAGE, help="Page de fin (incluse)")
+    parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR, help="Dossier de sortie")
+    args = parser.parse_args()
+
+    if not os.path.exists(args.pdf):
+        print(f"ERREUR : fichier PDF introuvable — {args.pdf}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"Extraction : {args.pdf}  (pages {args.start}-{args.end})")
+
+    # Extraction
+    print("  - PyPDF ...")
+    pypdf_text = extract_with_pypdf(args.pdf, args.start, args.end)
+    print("  - pdfplumber ...")
+    pdfplumber_text = extract_with_pdfplumber(args.pdf, args.start, args.end)
+
+    # Validation de zone
+    wrong_pages = validate_zone_boundary(pdfplumber_text)
+    if wrong_pages:
+        print(f"  [!] Pages avec zone incorrecte (hors UM8) : {wrong_pages}")
+        print(f"     -> ces pages seront exclues du fichier de sortie")
+        for p in wrong_pages:
+            pypdf_text.pop(p, None)
+            pdfplumber_text.pop(p, None)
+
+    # Comparaison
     comparison = compare_extractions(pypdf_text, pdfplumber_text)
+    pages_with_diff = sum(1 for d in comparison.values() if d["length_diff"] > 10)
 
-    # Sauvegarder les résultats
-    output_dir = "extracted"
-    os.makedirs(output_dir, exist_ok=True)
+    # Sauvegarde
+    os.makedirs(args.output_dir, exist_ok=True)
+    save_text(pypdf_text, f"{args.output_dir}/um8_pypdf.txt", "PyPDF")
+    save_text(pdfplumber_text, f"{args.output_dir}/um8_pdfplumber.txt", "pdfplumber")
 
-    # Sauvegarder les textes extraits
-    save_extracted_text(pypdf_text, f"{output_dir}/um8_pypdf.txt", "PyPDF")
-    save_extracted_text(pdfplumber_text, f"{output_dir}/um8_pdfplumber.txt", "pdfplumber")
-
-    # Sauvegarder la comparaison en JSON
-    with open(f"{output_dir}/comparison.json", 'w', encoding='utf-8') as f:
+    with open(f"{args.output_dir}/comparison.json", "w", encoding="utf-8") as f:
         json.dump(comparison, f, indent=2, ensure_ascii=False)
 
-    # Créer un rapport de comparaison simplifié
-    total_pages = len(comparison)
-    pages_with_diff = sum(1 for data in comparison.values() if data['length_diff'] > 10)
-    pages_equal_content = sum(1 for data in comparison.values() if data['content_equal'])
-
-    print(f"\n=== RAPPORT D'EXTRACTION ===")
-    print(f"Pages traitées: {total_pages}")
-    print(f"Pages avec différence significative (>10 caractères): {pages_with_diff}")
-    print(f"Pages avec contenu identique: {pages_equal_content}")
-
-    # Sauvegarder le résumé
     summary = {
-        'pdf_source': pdf_path,
-        'extraction_range': f'{start_page}-{end_page}',
-        'total_pages': total_pages,
-        'pages_with_significant_diff': pages_with_diff,
-        'pages_identical_content': pages_equal_content,
-        'extraction_date': pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')
+        "pdf_source": args.pdf,
+        "extraction_range": f"{args.start}-{args.end}",
+        "total_pages": len(comparison),
+        "pages_with_significant_diff": pages_with_diff,
+        "excluded_wrong_zone_pages": wrong_pages,
+        "extraction_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
-
-    with open(f"{output_dir}/extraction_summary.json", 'w', encoding='utf-8') as f:
+    with open(f"{args.output_dir}/extraction_summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    print(f"\nRésultats sauvegardés dans le dossier: {output_dir}")
-    print("- Texte extrait (PyPDF): um8_pypdf.txt")
-    print("- Texte extrait (pdfplumber): um8_pdfplumber.txt")
-    print("- Comparaison détaillée: comparison.json")
-    print("- Résumé: extraction_summary.json")
+    # Rapport
+    print(f"\n{'='*50}")
+    print(f"  Pages extraites : {len(comparison)}")
+    print(f"  Différences significatives (>10 chars) : {pages_with_diff}")
+    print(f"  Pages exclues (zone incorrecte) : {len(wrong_pages)}")
+    print(f"  Resultats : {args.output_dir}/")
+    print(f"{'='*50}")
+
 
 if __name__ == "__main__":
     main()
