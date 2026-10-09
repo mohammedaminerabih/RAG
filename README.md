@@ -1,47 +1,56 @@
-# RAG juridique — règlement du PLUi de Bordeaux Métropole (UM8)
+# Bordeaux PLUi RAG — UM8 Written Regulations
 
-Prototype de recherche documentaire et de réponses sourcées sur le règlement écrit d'une zone. Le périmètre reste provisoire : le projet ne doit pas être présenté comme un outil de conformité urbanistique à une adresse.
+A document-retrieval and grounded question-answering project based on the written regulations for Zone UM8 in the Bordeaux Métropole local urban plan (PLUi). This is a research prototype, **not** a tool for determining whether a property or project complies with planning rules.
 
-## Architecture prévue
+## Current status
 
-Le pipeline est écrit à la main, sans LangChain/LlamaIndex au démarrage : PDF officiel → extraction contrôlée page par page → sections/chunks avec pages sources et IDs stables → embeddings + index vectoriel → retrieval → LLM hébergé configuré → citations résolues par le code ou abstention. Une branche d'évaluation séparée mesurera le retrieval et la génération. Ce README décrit l'état exécutable du dépôt; les notes et documents de suivi internes sont conservés hors du dépôt.
+Phases 0–4 are complete. The project can identify the UM8 pages in the source PDF, extract and chunk the written regulations, create embeddings, and build a local FAISS index. Query-time retrieval, the evaluation datasets, LLM answers, and the API are **not implemented yet**; they are planned for later phases.
 
-## État actuel — phases 0 à 4 terminées
+- The UM8 body spans physical PDF pages **303–340**: 38 pages. The PDF page number is not the same as the printed page number inside the document.
+- Extraction found 98 sections, including 13 empty sections that were skipped, and produced **130 chunks**. Chunk lengths range from 62 to 1,500 characters; the median is 947.5.
+- **59 automated tests pass** across boundary detection, extraction, chunking, and index validation.
+- The tables on PDF pages 322 and 324 were visually reviewed. Text extraction does not reliably preserve their row/column relationships, so questions that depend on those relationships are excluded from the initial evaluation set.
+- pypdf is selected explicitly on pages 324, 327, and 328. On pages 327–328 it preserves the `HF`/`HT` height markers better than pdfplumber.
+- The local dense index contains **130 normalized 384-dimensional vectors**, built with the pinned `intfloat/multilingual-e5-small` model and FAISS `IndexFlatIP`. The longest passage is 464/512 model tokens.
 
-- Extraction et chunking localisés dans `src/`; recherche des limites du chapitre vérifiée sur le PDF : pages PDF **303–340**.
-- 38 pages extraites; 98 sections détectées, dont 13 sans contenu ignorées; **130 chunks** produits (62–1 500 caractères, médiane 947,5).
-- **59 tests automatisés** couvrent notamment l'extraction, le chunking, les pages de citation et les contrats de validation des embeddings/index.
-- La page 322 (tableau de coefficient de végétalisation, article 2.1.5) et la page 324 (deux tableaux et un schéma; F1 lexical comparatif : 0,9222) ont été examinées visuellement. Le texte extrait linéarise les cellules : les questions dépendant d'une association certaine ligne/colonne sont exclues du premier jeu d'évaluation. pypdf est sélectionné explicitement aux pages 324, 327 et 328; sur 327–328, il conserve mieux les indices de hauteur HF/HT.
-- Contrôle visuel des frontières sur le PDF : 302 est le sommaire UM8, 303 le début du corps UM8, 340 en est encore une page, et 341 est une page de colophon. Le sommaire UM9 est page 344 et son corps commence page 345.
-- Dix chunks choisis avec une graine fixe ont été comparés manuellement au PDF. Les clauses en prose concordent; les marqueurs de liste de la page 308 et les indices HF/HT ont été normalisés, et le découpage ne commence plus au milieu d'un mot. L'échantillon confirme aussi qu'un chunk de tableau peut manquer de contexte de colonnes : ces questions restent exclues.
-- L'index dense a été construit : **130 vecteurs × 384 dimensions**, modèle `intfloat/multilingual-e5-small` épinglé à une révision immuable, normalisation L2 et FAISS `IndexFlatIP`. La longueur maximale des passages est **464/512 tokens**; l'index relu contient 130 entrées et le JSON garde la correspondance position→ID de chunk.
-- Le retrieval de questions, le jeu d'évaluation, le LLM et l'API ne sont **pas encore implémentés** (phase 5 et suivantes).
-- UM8 est retenue comme corpus pilote de questions sur le texte écrit, pas comme outil de conformité à une adresse. L'article 1.1 contient les définitions annoncées communes à toutes les zones. Le corpus ne revendique pas l'exhaustivité des autres règles générales.
+## Pipeline
 
-## Structure
+```text
+Official written-regulation PDF
+        ↓
+Page detection and extraction checks (pypdf + pdfplumber)
+        ↓
+Article-aware chunks with source pages and stable IDs
+        ↓
+E5 passage embeddings → exact FAISS index
+        ↓
+Next: dense retrieval → evaluation → hybrid comparison → cited answers → API
+```
+
+The pipeline is implemented directly in Python, without LangChain or LlamaIndex. The PDF, local model cache, virtual environment, and generated `data/index/` directory are ignored by Git. The index and its metadata are recreated locally by `src/build_index.py`.
+
+## Key files
 
 ```text
 data/
-  243300316_reglement_20260505.pdf   # source locale ignorée par Git (147 MB)
-  extracted/                         # deux extractions + source retenue + rapports
-  chunked/                           # JSON de chunks
-  index/um8_index_metadata.json      # modèle, hashes, versions et mapping position→chunk
-  index/um8.faiss                    # index local ignoré par Git, recréable
+  243300316_reglement_20260505.pdf  # Local source PDF; ignored by Git
+  extracted/                        # Extraction outputs and comparison reports
+  chunked/um8_chunks.json           # 130 chunks used to build the index
+  index/                            # Local FAISS index + metadata; ignored by Git
 src/
-  find_boundaries.py
-  extract_um8.py
-  chunk_um8.py
-  embedding_config.py
-  build_index.py
-tests/
-  test_build_index.py
-requirements.txt                     # parsing, tests et index dense (phases 0–4)
-SOURCES.MANIFEST                     # provenance, version, URL et SHA-256
+  find_boundaries.py                # Detect physical PDF pages for a zone
+  extract_um8.py                    # Extract and compare PDF text
+  chunk_um8.py                      # Parse articles and create chunks
+  embedding_config.py              # Pinned embedding model configuration
+  build_index.py                    # Embed chunks and build/save the FAISS index
+tests/                              # Automated tests for the implemented pipeline
+requirements.txt
+SOURCES.MANIFEST                    # Source URL, version, and checksum
 ```
 
-## Reproduire l'état actuel (PowerShell)
+## Reproduce the current pipeline (PowerShell)
 
-Le PDF n'est pas versionné. Télécharger uniquement la pièce écrite, pas l'archive complète :
+The source PDF is intentionally not committed because it is about 147 MB. Download only the written-regulation document, not the full archive:
 
 ```powershell
 New-Item -ItemType Directory -Force data | Out-Null
@@ -51,25 +60,47 @@ Invoke-WebRequest `
 Get-FileHash data/243300316_reglement_20260505.pdf -Algorithm SHA256
 ```
 
-L'empreinte attendue est dans `SOURCES.MANIFEST`. Puis installer et exécuter :
+Compare the checksum with `SOURCES.MANIFEST`, then install and run the pipeline:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python -m pytest -q -p no:cacheprovider tests
+python -m pytest -q -p no:cacheprovider
 python src/extract_um8.py
 python src/chunk_um8.py
 python src/build_index.py
 ```
 
-`extract_um8.py` détecte automatiquement les pages de la zone avant extraction. `find_boundaries.py` reste disponible pour vérifier séparément la plage détectée; l'extraction manuelle exige de fournir ensemble `--start` et `--end`.
-La première exécution de `build_index.py` télécharge la révision épinglée du modèle dans `.cache/huggingface/` (ignoré par Git), puis crée l'index FAISS local et son JSON de provenance. Les entrées sont encodées avec le préfixe `passage:`; la phase 5 devra encoder les questions avec `query:`.
+`extract_um8.py` detects the zone boundaries automatically. `find_boundaries.py` can also be run independently to inspect the detected page range. If specifying extraction pages manually, both `--start` and `--end` are required.
 
-## Provenance et limites
+The first index build downloads the pinned embedding model into `.cache/huggingface/`; this public model does not require an LLM API key. Passage vectors use the E5 `passage:` prefix. The future query-retrieval phase must use the corresponding `query:` prefix.
 
-Le manifeste officiel indique une version 30, publiée le 12 mai 2026 et en vigueur. Le fichier récupéré est le règlement écrit **par zones**, pas les plans graphiques, atlas, listes de prescriptions, annexes ou documents de contexte. Les définitions de l'article 1.1, annoncées communes à toutes les zones, sont bien présentes. Cela ne prouve pas que toutes les règles générales utiles sont couvertes; le périmètre se limite aux passages textuels disponibles et le système devra s'abstenir si une réponse dépend d'une pièce absente.
+## Corpus scope and limitations
 
-Des clauses renvoient au plan de zonage, à des prescriptions ou à des annexes. Les questions dont la réponse dépend de ces pièces devront être exclues du jeu répondable ou recevoir une abstention, sauf décision ultérieure d'élargir le corpus.
+The source is version 30 of the written, zone-by-zone regulations, published on 12 May 2026. The corpus does not include zoning maps, prescriptions, easements, appendices, or contextual planning documents. Article 1.1 includes definitions explicitly stated to be common across zones, but the project does not claim to cover every general PLUi rule.
 
-Les métriques automatiques d'extraction comparent le F1 des multiensembles de mots après normalisation : elles repèrent les pertes lexicales mais ne vérifient ni l'ordre d'une table, ni son sens juridique. Les tableaux des pages 322 et 324 ont été visualisés; leurs valeurs sont hors périmètre tant que les relations entre cellules ne sont pas représentées explicitement. Les autres tableaux ne doivent pas être considérés comme validés au seul motif que leur F1 lexical est élevé.
+Some clauses refer to absent maps, prescriptions, or appendices. Questions that depend on those materials must be excluded or answered with an abstention; the system must not infer the missing rule.
+
+Extraction similarity is a lexical measure. It can reveal missing words, but it cannot validate a table's structure or legal meaning. The tables on pages 322 and 324 remain out of scope for questions requiring reliable cell relationships. Other tables must not be treated as validated merely because their lexical score is high.
+
+## Project phases
+
+**Completed:**
+
+0. Scope and corpus definition
+1. Source collection and provenance
+2. PDF extraction and quality checks
+3. Article parsing and chunking
+4. Embeddings and local FAISS index
+
+**Planned:**
+
+5. Dense question retrieval
+6. Retrieval evaluation: about 10 development questions and a separate, frozen set of 20–30 questions; Recall@k and MRR
+7. Compare dense retrieval with BM25-based hybrid retrieval on the development set; freeze the choice before final evaluation
+8. Generate source-grounded answers with validated citations and abstention
+9. Audit answer faithfulness, citation correctness, and abstentions
+10. Deliver a tested FastAPI service in Docker
+
+Reranking is optional and will only be considered after retrieval has been measured. The project is currently at the end of phase 4; the planned phases are not implemented yet.
