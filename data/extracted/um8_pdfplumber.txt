@@ -1,0 +1,1755 @@
+# Texte extrait avec pdfplumber
+
+## Page 303
+
+Zone UM 8
+Règlement pièces écrites
+1. Fonctions urbaines
+Le présent chapitre permet de connaître les occupations et utilisations autorisées dans la zone et les conditions qui s'y
+rattachent.
+1.1. Destination des constructions
+Les destinations des constructions, décrites ci-après, sont définies en application du Code de l'urbanisme. Tout projet
+de construction, d'aménagement ou d'installation se réfère à l'une de ces destinations.
+Ces définitions sont communes à l'ensemble des zones.
+Pour connaître les destinations autorisées sur la zone, il faut se référer aux deux chapitres du présent
+règlement :
+- 1.2 "occupations et utilisations du sol interdites",
+- 1.3 "occupations et utilisations du sol soumises à conditions particulières".
+Important : Les destinations qui ne sont ni interdites, ni soumises à conditions particulières, sont autorisées.
+Définitions
+• Artisanat :
+Cette destination comprend les locaux destinés à des activités de fabrication, de façonnage, d'assemblage, de transformation,
+de réparation ou de prestation de services relevant de l'artisanat.
+L’artisanat se différencie de l’industrie par son processus de production. Le travail y est faiblement divisé, les tâches manuelles
+y sont dominantes, peu répétitives et demandent un savoir et/ou un savoir-faire important.
+Les activités artisanales exercées à des fins de vente directe de leur production au public relèvent de la destination
+commerciale (boulangerie, boucherie…).
+• Bureaux :
+Cette destination comprend les locaux et leurs annexes où sont exercées essentiellement des activités de direction (sièges
+sociaux), de prestation de services aux entreprises, de gestion, d'études, de conseil et/ou d’expertise, de conception,
+d'informatique, de recherche et développement, d'ingénierie, de vente par correspondance, de démarchage téléphonique ou
+de téléassistance…
+Cette destination concerne également les locaux destinés à l'exercice des professions libérales de services (avocats, architectes,
+professions paramédicales, vétérinaires, etc.). Les cabinets médicaux, maisons médicales et regroupements de professionnels
+de la santé entrent dans la destination des services publics ou d’intérêt collectif à vocation sanitaire.
+Les agences immobilières, banques, agences d’intérim, agences de voyage, courtiers d’assurance sont compris dans cette
+destination.
+Pour être rattachées à la destination de bureaux, les activités de présentation et de vente directe de produits au public ne
+peuvent y être exercées qu'à titre accessoire.
+• Commerce :
+Cette destination comprend les locaux destinés à la présentation, à la location ou à la vente directe de produits au public et
+les locaux annexes destinés à l'entreposage des produits.
+Cette destination concerne également les activités de services au public telles que laveries automatiques, pressing, retouches,
+repassage, coiffure, soins de beauté, entretien corporel, activités photographiques, salles de jeux, reprographie, photocopie,
+complexes cinématographiques, enseignement de la conduite.
+De la même façon, les activités artisanales exercées à des fins de vente directe de leur production au public relèvent de la
+destination commerciale (boulangerie, boucherie...).
+Les cafés et les restaurants sont compris dans cette destination, tout comme les « points permanents de retrait par la clientèle
+d’achats de détail commandés par voie télématique, organisé pour l’accès en automobile », ou « drive ».
+Le commerce de gros sans activité de détail n’entre pas dans cette destination.
+11e modification du PLU 5
+
+---
+
+## Page 304
+
+Zone UM 8
+Règlement pièces écrites
+• Entrepôts :
+Cette destination comprend les locaux logistiques destinés à l'entreposage et au reconditionnement de produits, de
+marchandises et de matériaux ainsi que le commerce de gros sans activité de détail.
+Les "points permanents de retrait par la clientèle d’achats de détail commandés par voie télématique, organisé pour l’accès
+en automobile", ou "drive", n’entrent pas dans cette catégorie. Ils sont ainsi considérés comme des surfaces commerciales
+(voir destination "commerce").
+• Exploitation agricole et forestière :
+Cette destination comprend :
+- Pour les exploitations agricoles : les constructions, aménagements et installations nécessaires à l’activité agricole telle que
+définie au Livre III, chapitre 1er du Code rural et de la pêche.
+Ils permettent notamment la culture (châssis, serres...) et/ou l’élevage des animaux, y compris les centres de transit, le stockage
+des productions et des récoltes, l’accueil des salariés agricoles et le rangement du matériel, la transformation des produits de
+l'exploitation et, le cas échéant, leur commercialisation sur le site de l’exploitation.
+Ils comprennent également les centres équestres, haras, etc. dès lors qu’ils sont sans lien avec des activités de spectacle.
+Ils prennent en compte la production et, le cas échéant, la commercialisation, par un ou plusieurs exploitants agricoles, de
+biogaz, d'électricité et de chaleur par la méthanisation. Toutefois, cette production doit être issue pour au moins 50 % de
+matières provenant de cette ou de ces exploitations.
+- Pour les exploitations forestières : toutes les constructions, aménagements et installations nécessaires à l’activité forestière,
+à savoir la production de bois, le prélèvement de produits sur la forêt vivante (liège, gommes…), voire la cueillette.
+L'exploitation forestière permet la gestion et l’entretien durable des ressources forestières et leur valorisation marchande dans
+le cadre de la vente de produits bruts ou très peu transformés.
+• Habitation :
+Cette destination comprend tous les logements, notamment les logements liés et nécessaires au bon fonctionnement des
+entreprises agricoles, forestières, artisanales, industrielles ou commerciales. Relèvent également de l'habitation, les chambres
+d'hôtes, les locaux ou aménagements annexes à l'habitation tels que piscine, garage, abri de jardin etc.
+• Hébergement hôtelier :
+Cette destination comprend tout mode d'hébergement relevant de l'application du livre III du Code du tourisme, notamment
+les établissements commerciaux d'hébergement classés de type hôtel et résidence de tourisme, les gîtes, les établissements
+hôteliers de plein air de type campings et parc résidentiel de loisirs. Sont aussi concernées les fermes auberges, salles de
+réception, etc.
+Relèvent également de cette destination les résidences services dès lors que les critères suivants sont exhaustivement et
+cumulativement respectés :
+- un hébergement à caractère temporaire ;
+- un minimum d'espaces communs propres aux hôtels non laissés à la libre disposition de ses occupants (restauration,
+blanchisserie, accueil).
+A défaut du respect de l'ensemble de ces critères, ces résidences sont rattachées à la destination d'habitation.
+• Industrie :
+Cette destination comprend les constructions, installations et aménagements destinés à des activités économiques de
+fabrication, de façonnage, d'assemblage, de transformation pour produire en série des biens matériels commercialisables.
+Ainsi, c'est le processus de production qui différencie l'industrie de l'artisanat.
+Elle comprend également les activités d'extraction et d'exploitation de matières premières, la production d'énergie, les activités
+de retraitement, de démantèlement et/ou de recyclage.
+• Services publics ou d'intérêt collectif :
+Cette destination comprend les constructions, aménagements et installations, publics ou privés, destinés à accueillir des
+fonctions d'intérêt général et à répondre à un besoin collectif, notamment dans la gestion et l'entretien des milieux naturels,
+11e modification du PLU 6
+
+---
+
+## Page 305
+
+Zone UM 8
+Règlement pièces écrites
+dans les domaines administratifs, hospitaliers, sanitaires (cabinets médicaux, maisons médicales et regroupements de
+professionnels de la santé…), sociaux, culturels (salles de spectacles, cinémas hors complexes cinématographiques…), sportifs,
+récréatifs et de loisirs, cultuels, judiciaires et pénitenciers, de la défense, des secours et de la sécurité, de l'enseignement et de
+la recherche, de l'accueil de l'enfance et de la petite enfance.
+Elle concerne également :
+- les locaux destinés à héberger des entreprises dans le cadre d’une politique de soutien à l’emploi (pépinières, incubateurs) ;
+- les locaux d'hébergement relevant du code de la construction et de l'habitation (hébergements et logements temporaires
+pour les personnes et ménages en difficultés : maisons relais, hébergements d’urgence…) ;
+- les dispositifs prévus dans le cadre du schéma départemental d'accueil des gens du voyage ;
+- les constructions et installations destinées au bon fonctionnement des services urbains (transport, eau, assainissement,
+déchets, énergies, communication, dispositifs de production d'énergies renouvelables...).
+Principes généraux
+Lorsqu'un ensemble de locaux présente par ses caractéristiques une unité de fonctionnement, il est tenu compte
+exclusivement de la destination principale de cet ensemble. Ainsi, à titre d'exemple, les locaux annexes de type
+bureaux, locaux de gardiennage ou d'entreposage nécessaires au bon fonctionnement d'une activité d'artisanat ou
+d'industrie, sont rattachés à leur destination principale. Toutefois, dans certains cas, pour certaines destinations ou
+certains zonages, des conditions particulières peuvent être définies. Celles-ci le sont alors expressément dans la règle
+de la zone concernée.
+Lorsqu'une construction ou un aménagement relève de plusieurs destinations sans lien fonctionnel entre elles, il est
+fait application des règles propres à chacune de ces destinations, au prorata de la surface de plancher affectée à
+chacune d'entre elles.
+1.2. Occupations et utilisations du sol interdites
+De manière générale, les occupations et utilisations du sol présentant des caractéristiques incompatibles avec la
+vocation de la zone, notamment en termes de voisinage, d'environnement, de paysage sont interdites.
+Dans les secteurs soumis à des risques naturels ou technologiques, délimités au plan de zonage ou en annexe du PLU,
+pour protéger les biens et les personnes contre les risques, les occupations et utilisations du sol peuvent être interdites
+en application de l’article R.111-2 du Code de l’urbanisme et / ou de la réglementation en vigueur.
+Les occupations et utilisations du sol suivantes sont interdites :
+- Les constructions destinées à l’entrepôt, ou le changement de destination vers cette destination, à l’exception de celles
+prévues au "1.3. Occupations et utilisations du sol soumises à conditions particulières" ;
+- Les constructions destinées à l’industrie, ou le changement de destination vers cette destination, à l’exception de
+celles prévues au "1.3. Occupations et utilisations du sol soumises à conditions particulières" ;
+- Les installations classées pour la protection de l’environnement à l’exception de celles prévues au "1.3. Occupations
+et utilisations du sol soumises à conditions particulières" ;
+- Les affouillements et exhaussements à l’exception de ceux prévues au "1.3. Occupations et utilisations du sol soumises
+à conditions particulières" ;
+- L’aménagement de terrains de camping / caravaning ainsi que les parcs résidentiels de loisirs ;
+- La construction et l’extension de garages collectifs de caravanes ou de résidences mobiles de loisirs ;
+- Le stationnement isolé des caravanes, de résidences mobiles de loisirs ou d’habitations légères de loisirs isolées ;
+- Les terrains familiaux aménagés pour les gens du voyage ou l’installation de résidences mobiles constituant leur
+habitat permanent, à l’exception des terrains familiaux locatifs portés par une collectivité locale et des dispositifs
+prévus dans le cadre du Schéma Départemental d’Accueil des Gens du Voyage ;
+- Les résidences démontables constituant l’habitat permanent de leurs utilisateurs ;
+- Les dépôts de ferrailles, de matériaux de démolition, de déchets, d'anciens véhicules désaffectés ;
+11e modification du PLU 7
+
+---
+
+## Page 306
+
+Zone UM 8
+Règlement pièces écrites
+- Les constructions, installations et aménagements portant atteinte aux éléments repérés au plan de zonage au 1/5000e
+relevant des "dispositions particulières relatives aux continuités écologiques, zones humides, à la mise en valeur du
+patrimoine naturel, bâti et paysager".
+1.3. Occupations et utilisations du sol soumises à conditions
+particulières
+Les occupations et utilisations du sol de quelque nature que ce soit, sont soumises aux conditions et/ou restrictions
+suivantes.
+1.3.1. Conditions particulières relatives à la reconstruction à l’identique
+En application des dispositions du Code de l’urbanisme, dès lors qu’il a été régulièrement édifié, la reconstruction
+à l’identique d’un bâtiment détruit ou démoli depuis moins de dix ans est autorisée.
+Toutefois, toute reconstruction est interdite si celle-ci expose ses occupants à un risque certain et prévisible de
+nature à mettre gravement en danger leur sécurité.
+Par ailleurs, dans le cas où la destruction résulte d’une démolition volontaire, la reconstruction à l’identique n’est
+autorisée que si l’édification d’une construction équivalente s’avère impossible dans le cadre de l’application du
+présent règlement.
+1.3.2. Conditions particulières relatives à la destination des constructions
+Sont autorisées dans les conditions définies ci-dessous, les constructions suivantes :
+1.3.2.1. Constructions destinées à l'entrepôt
+La réhabilitation, l’extension et / ou la surélévation mesurées d’entrepôts existants.
+1.3.2.2. Constructions destinées à l'industrie
+La réhabilitation, l’extension et / ou la surélévation mesurées des constructions existantes.
+1.3.2.3. Constructions situées dans l'emprise des linéaires destinés à la diversité
+commerciale
+Pour les constructions situées dans l’emprise des "linéaires destinés à la diversité commerciale" repérés au
+plan de zonage au 1/5000°, le rez-de-chaussée des constructions doit être affecté en totalité, sur une
+profondeur de 8 mètres minimum à compter de la façade sur voies et emprises publiques :
+- Sur les linéaires identifiés comme "commerce et artisanat", à des activités artisanales, commerciales et / ou à
+des constructions et installations nécessaires à des services publics ou d’intérêt collectif ;
+- Sur les linéaires identifiés comme "accueil d’activités et de services", à des activités artisanales, commerciales,
+aux bureaux, à l’hébergement hôtelier et / ou à des constructions et installations nécessaires aux services
+publics et d’intérêt collectif.
+Sont déduites de la surface des rez-de-chaussée, les surfaces affectées aux parties communes nécessaires au
+fonctionnement des constructions (halls d’entrée, accès au stationnement souterrain, locaux techniques, de
+gardiennage, de stockage des déchets, espaces de stationnement vélos…).
+Ces dispositions ne concernent que les changements de destination des rez-de-chaussée de constructions
+existantes et les nouvelles constructions.
+11e modification du PLU 8
+
+---
+
+## Page 307
+
+Zone UM 8
+Règlement pièces écrites
+1.3.3. Conditions particulières relatives à la diversité sociale, à l'habitat et au
+logement
+Au titre de la diversité sociale de l’habitat et du logement, les locaux d’hébergement relevant du code de la
+construction et de l’habitation (hébergements et logements temporaires pour les personnes et ménages en
+difficultés : maisons relais, hébergements d’urgence…) et les dispositifs prévus dans le cadre du schéma
+départemental d’accueil des gens du voyage, bien que relevant de la destination « services publics et d’intérêt
+collectif » du PLU3.1, sont pris en compte dans le calcul de la surface de plancher destinée à l’habitation.
+Les occupations et utilisations du sol sont soumises, le cas échéant, aux dispositions suivantes :
+1.3.3.1. Servitude de mixité sociale
+Sur les terrains repérés au plan de zonage au 1/5000° où il est établi une servitude de mixité sociale (SMS), les
+prescriptions portées dans la "liste des dispositions en faveur de la diversité de l’habitat" doivent être
+respectées.
+1.3.3.2. Secteur de diversité sociale
+Dans les secteurs de diversité sociale repérés au plan de zonage au 1/5000°, toute opération ou aménagement
+doit comporter une part de surface de plancher destinée à du logement locatif social financé par un prêt aidé
+de l’Etat et / ou à de l’accession sociale. On entend par logement en accession sociale tout logement qui répond
+aux critères d’accession sociale tels que définis par le code de la construction et de l’habitation et précisés à
+l’action 2.3 du POA habitat.
+Dans ces secteurs, toute opération ou aménagement soumis à autorisation générant après travaux ou
+changement de destination au moins 1 000 m² de surface de plancher destinée à l’habitation doit prévoir :
+- 20% minimum de surface de plancher dédiée à du logement en accession sociale,
+- un pourcentage de surface de plancher dédiée à du logement locatif social supérieur ou égal à celui fixé au
+plan de zonage.
+Ces pourcentages s’appliquent à la surface de plancher après travaux destinée à l’habitation.
+Si la parcelle se situe dans un quartier relevant d’un dispositif « politique de la Ville » national ou métropolitain
+(Contrat de Ville métropolitain ou équivalent), les obligations en matière de logement social financé par un prêt
+aidé de l’Etat sont remplacées pour tout ou partie par de l’accession sociale à hauteur de l’obligation
+règlementaire repérée au plan de zonage, au regard du parc de logements sociaux existant sur le secteur
+concerné et dans le respect des obligations de la Délégation des aides à la pierre :
+- soit une proportion cumulée de logement locatif social et d’accession sociale ;
+- soit de l’accession sociale en totalité.
+Et ce, dans les deux cas, en incluant la règle générale d’un minimum de 20% d’accession sociale.
+Exemples (non exhaustifs), si L40 au plan de zonage :
+• 20% d’accession sociale + 20% de logement locatif social
+• 30% d’accession sociale + 10% de logement locatif social
+• 40% d’accession sociale
+Les dispositions relatives aux secteurs de diversité sociale ne s’appliquent pas :
+- si l’opération est comprise dans un projet d’aménagement dont la programmation en logements a fait l’objet
+d'une délibération de l'autorité compétente ;
+- Si l’opération concerne une contrepartie apportée dans le cadre des opérations portées par l’ANRU et faisant
+l’objet d’une convention ;
+- si la parcelle ou l’unité foncière est concernée par une servitude de mixité sociale (SMS) repérée au plan de
+zonage ;
+- Si l’opération est portée par un bailleur social et produit au moins 50% de logement locatif social ;
+11e modification du PLU 9
+
+---
+
+## Page 308
+
+Zone UM 8
+Règlement pièces écrites
+- Si l’opération comprend au moins 50% de logements sociaux financés par un prêt aidé de l’Etat relevant des
+catégories suivantes :
+o les logements à destination des personnes âgées (résidences autonomie, EHPAD)
+o les dispositifs d’hébergements et de logements accompagnés, à savoir :
+�� les centres d’hébergement d’urgence (CHU)
+�� les centres d’hébergement et de réinsertion sociale (CHRS)
+�� les résidences sociales (dont foyers de jeunes travailleurs)
+�� les foyers pour personnes handicapées (FPH)
+�� les pensions de famille et les résidences accueil
+�� les résidences hôtelières à vocation sociale (RHVS)
+o les logements à destination des étudiants
+o les résidences universitaires
+1.3.3.3. Secteur de taille de logement
+Dans les secteurs de taille de logement (STL) repérés au plan de zonage, les prescriptions portées dans la "liste
+des dispositions en faveur de la diversité de l’habitat" doivent être respectées.
+1.3.4. Conditions particulières relatives à la salubrité, à la prévention des
+risques et à la protection contre les nuisances
+Au titre de la salubrité, de la prévention des risques et de la protection contre les nuisances, les occupations et
+utilisations du sol sont soumises, le cas échéant, aux dispositions suivantes :
+1.3.4.1. Risques naturels et technologiques
+Pour protéger les biens et les personnes, les occupations et utilisations du sol sont soumises à conditions, au
+vu de la réglementation en vigueur (plans de prévention...) et de la connaissance du risque le plus récent, en
+application de l’article R.111-2 du Code de l’urbanisme. Ces conditions s’appliquent notamment dans les
+secteurs repérés au plan de zonage ou en annexe du PLU au titre :
+- de l'existence de risques naturels, tels qu'inondations, incendies de forêt, affaissements, éboulements… ;
+- des risques technologiques.
+1.3.4.2. Installations classées
+Les nouvelles occupations et utilisations du sol soumises au régime des installations classées au titre du Code
+de l’environnement sont autorisées, dès lors qu’elles sont compatibles avec la vocation de la zone, notamment
+en termes de voisinage, d'environnement et de paysage, et répondent aux besoins des usagers et habitants,
+sous réserve des dispositions de l’article R.111-2 du Code de l’urbanisme.
+1.3.4.3. Protection des constructions contre le ruissellement des eaux pluviales
+A l’exception des constructions à usage agricole dans le cas de constructions neuves comme d’extension, le
+projet devra préciser comment sont gérées les eaux de ruissellement de surface.
+La cote des accès du rez-de-chaussée ou de la dalle finie devra être au minimum à 15 cm au-dessus :
+- de la cote fil d’eau du caniveau (ou assimilé) pour les bâtiments implantés à l’alignement ;
+- du terrain aménagé ou des points bas du terrain situés à proximité pour les bâtiments implantés en recul, en
+second rang ou au-delà.
+Pour les parties de bâtiment enterrées ou semi enterrées, les rampes d’accès aux parkings souterrains, le point
+haut de l’accès sera au minimum à 15 cm au-dessus de la cote fil d’eau du caniveau (ou assimilé) ou à 15 cm
+au-dessus du terrain aménagé ou des points bas du terrain situés à proximité.
+En cas d’impossibilité d’application des règles ci-dessus, il appartiendra au pétitionnaire de proposer une
+solution de gestion des eaux pluviales et d’en démontrer la viabilité et la pérennité.
+11e modification du PLU 10
+
+---
+
+## Page 309
+
+Zone UM 8
+Règlement pièces écrites
+1.3.4.4. Affouillements et exhaussements
+Les affouillements et les exhaussements sont autorisés dès lors :
+- Qu’ils sont directement liés au projet de construction et nécessaires à sa réalisation ;
+- ou qu’ils sont liés aux travaux nécessaires à la protection contre les inondations, les risques et les nuisances ;
+- ou qu’ils sont liés à la restauration de zones humides ou à la valorisation écologique des milieux naturels, ou
+à la valorisation des ressources naturelles du sol et du sous-sol.
+1.3.4.5. Protection des aqueducs et des ressources naturelles
+Afin d'en assurer la protection et le fonctionnement, dans les périmètres de protection des captages d’eau
+potable et dans les bandes de protection sanitaire de 70 m centrées sur l'axe des aqueducs de l’agglomération
+repérés au plan de zonage au 1/5000°, les occupations et utilisations du sol peuvent être interdites ou soumises
+à des prescriptions particulières, conformément à la réglementation en vigueur et à l’article R.111-2 du Code
+de l’urbanisme.
+1.3.4.6. Bruit de l'aéroport
+Dans les zones définies par le Plan d’Exposition au Bruit des aéronefs de l’aéroport de Bordeaux-Mérignac
+figurant dans les annexes du PLU, toute occupation ou utilisation du sol doit respecter les dispositions dudit
+plan.
+1.3.4.7. Bruit des infrastructures
+Dans les secteurs situés au voisinage des infrastructures de transports terrestres (routes, rail), les constructions
+neuves à destination d’habitation doivent être préservées contre le bruit.
+Est ainsi concerné tout nouveau projet de construction situé dans un des "périmètres d’isolement acoustique
+des secteurs situés au voisinage des infrastructures de transports terrestres", faisant l'objet d'un arrêté
+préfectoral, repérés ou non dans le plan des périmètres divers figurant en annexes informatives du PLU.
+Il doit être conçu de manière à réduire le bruit au sein de la construction et des espaces extérieurs de
+l’opération. Il doit également limiter le nombre de façades habitées exposées au bruit en privilégiant, à titre
+d’exemple, des destinations autorisées autre que l’habitation le long de l’axe bruyant. Les conditions
+permettant le respect de ces dispositions sont fixées au « 2.3.4. Implantation différente » du présent règlement.
+La présente règle ne s’applique pas dès lors que le projet est situé dans une "séquence concernée par des
+dispositions particulières d’entrée de ville" repérée au plan de zonage.
+1.3.5. Conditions particulières relatives aux éléments identifiés au plan de
+zonage contribuant à la mise en valeur du patrimoine végétal naturel, bâti
+et/ou paysager
+1.3.5.1. Continuités écologiques et / ou patrimoine bâti et paysager
+Pour préserver les continuités écologiques et / ou le patrimoine bâti et paysager repérés au plan de zonage, les
+occupations et utilisations du sol sont soumises, le cas échéant, à des dispositions particulières fixées au
+document traitant des "dispositions relatives à l’environnement et aux continuités écologiques, aux paysages
+et au patrimoine" du présent règlement.
+Les travaux permettant le maintien et le bon fonctionnement des installations, aménagements et constructions
+liés à l’entretien et à la mise en valeur des cours d’eau sont autorisés.
+Ces dispositions sont applicables en complément des règles fixées au chapitre 2 "Morphologie urbaine" du
+présent règlement.
+11e modification du PLU 11
+
+---
+
+## Page 310
+
+Zone UM 8
+Règlement pièces écrites
+1.3.5.2. Espaces boisés classés existants ou à créer et arbres isolés
+Les espaces boisés classés existants ou à créer et les arbres isolés sont repérés au plan de zonage au 1/5000°.
+Ce classement interdit notamment tout changement d’affectation ou tout mode d’occupation du sol de nature
+à compromettre la conservation, la protection ou la création des boisements.
+Les dispositions relatives aux espaces boisés classés existants ou à créer et aux arbres isolés s’appliquent dans
+les conditions fixées au "2.4.4. Aménagement des abords et plantations", au paragraphe "Aménagement
+paysager et plantations" du présent règlement.
+1.3.5.3. Plantations à réaliser
+Les espaces devant faire l'objet de Plantations à Réaliser (PAR) sont repérés au plan de zonage au 1/5000°.
+Les dispositions relatives à ces espaces s’appliquent dans les conditions fixées au "2.4.4. Aménagement des
+abords et plantations", au paragraphe "Aménagement paysager et plantations" du présent règlement.
+1.3.5.4. Terrains cultivés à protéger et inconstructibles et jardins familiaux
+Sur les terrains cultivés à protéger et inconstructibles repérés au plan de zonage, est interdite toute occupation
+et utilisation du sol de nature à compromettre leur conservation. Seules sont autorisées les constructions en
+lien avec leur affectation (murs de clôture, abris de jardins de 5 m² maximum et de 2,50 m de hauteur totale,
+serres, etc.).
+Dans les jardins familiaux, partagés ou apparentés, un local d'accueil est autorisé. Il ne peut excéder 20 m²
+maximum et 2,50 m de hauteur totale.
+De même, un seul abri de jardin par jardin individuel est autorisé.
+1.3.5.5. Zones humides
+Dans le cas de zones humides potentielles repérées au plan de zonage, le projet devra en tenir compte sauf s’il
+est démontré par le pétitionnaire l’absence, la disparition préalable ou la modification du périmètre de la zone
+humide.
+Les travaux ou aménagements susceptibles de porter atteinte à l’intégrité ou au bon fonctionnement d’une
+zone humide avérée sont soumis à déclaration ou autorisation selon les seuils déterminés par le code de
+l’environnement. Dans cette hypothèse, les autorisations d’urbanisme ne peuvent pas être mises en œuvre
+avant obtention de la décision de l’autorité environnementale.
+1.3.6. Autres conditions particulières
+Les occupations et utilisations du sol sont soumises, le cas échéant, aux dispositions suivantes :
+1.3.6.1. Routes classées à grande circulation
+Dispositions spécifiques aux entrées de ville :
+- Certains secteurs ont fait l’objet d’une étude d’aménagement prenant en compte les nuisances, la sécurité, la
+qualité architecturale et l’insertion urbaine et paysagère. Dans ces séquences concernées par des dispositions
+particulières d’entrée de ville identifiées au plan de zonage, des prescriptions particulières (implantation,
+hauteur…) sont portées le cas échéant au plan de zonage et/ou dans une orientation d’aménagement et de
+programmation territoriale. Elles s’imposent aux règles du présent règlement ;
+- En dehors de ces séquences et des espaces urbanisés, toute construction ou installation est interdite dans
+une bande de 100 m de part et d’autre de l’axe des autoroutes, des routes express et des déviations et de 75 m
+de part et d’autre de l’axe des routes classées à grande circulation. Le classement des voies et les secteurs
+concernés sont identifiés dans le rapport de présentation du PLU.
+Ces dispositions ne s’appliquent pas :
+- aux constructions ou installations liées ou nécessaires aux infrastructures routières ;
+- aux services publics exigeant la proximité immédiate des infrastructures routières ;
+11e modification du PLU 12
+
+---
+
+## Page 311
+
+Zone UM 8
+Règlement pièces écrites
+- aux bâtiments d'exploitation agricole ;
+- aux réseaux d'intérêt public ;
+- à la construction de toute infrastructure de production d’énergie solaire ;
+- à l'adaptation, au changement de destination (dans la limite des destinations autorisées dans la zone), à la
+réfection ou à l'extension de constructions existantes.
+1.3.6.2. Périmètres d'attente d'un projet d'aménagement global
+Une servitude de constructibilité limitée est fixée dans les périmètres d'attente d'un projet d'aménagement
+global identifié au plan de zonage.
+Seuls sont autorisés les travaux ayant pour objet la réhabilitation, l'extension et/ou la surélévation mesurées,
+le changement de destination des constructions existantes et les constructions nouvelles, dès lors que la
+surface de plancher et/ou l'emprise bâtie de la construction créée n'excède pas le seuil porté au plan de zonage.
+1.4. Conditions de réalisation des aires de stationnement
+L'offre de stationnement des véhicules doit correspondre aux besoins des constructions définis ci-après. Les
+obligations en matière de stationnement sont définies en fonction :
+- des destinations des constructions définies au "1.1. Destination des constructions" ;
+- des secteurs indicés de 1 à 5. Ils sont portés au plan de zonage au 1/5000°, dans l’intitulé de chaque zone ;
+- le cas échéant, du périmètre de modération des normes repéré au plan de zonage.
+1.4.1. Stationnement des véhicules motorisés
+1.4.1.1. Modalités qualitatives de réalisation des places de stationnement
+Les places de stationnement doivent être mises en œuvre pour des conditions normales de fonctionnement et
+dans le respect de la réglementation en vigueur.
+L'offre de stationnement peut se situer soit sur le terrain de l'opération, soit sur un terrain situé dans son
+environnement immédiat. Dans ce cas, l'offre de stationnement doit être accessible à pied facilement depuis
+l'entrée des constructions.
+L'offre de stationnement nécessaire au bon fonctionnement d'une opération, à destination des véhicules
+motorisés, y compris les poids lourds, doit être conçue et dimensionnée de manière à ne pas générer de
+dysfonctionnement sur les voies et espaces ouverts à tout type de circulation publique.
+Sont ainsi considérés les voies ou les espaces sur lesquels le public peut circuler librement à pied, en vélo, à
+l'aide d'un véhicule motorisé ou d'un moyen de transport collectif (bus ou tram).
+1.4.1.2. Modalités de calcul des places de stationnement
+- Règle générale :
+Le calcul du nombre de places de stationnement est réalisé au regard des destinations et des normes indiquées
+au "1.4.1.3. Normes de stationnement".
+Pour les constructions à destination d’hébergement hôtelier, de bureaux ou de commerce, dès lors qu’elles
+sont situées à l'intérieur du périmètre de modération, le nombre de places de stationnement maximum
+constitue un plafond à ne pas dépasser.
+Concernant les destinations où le calcul de l’offre de stationnement ne fait pas l’objet d’une norme chiffrée, le
+nombre de places doit correspondre aux besoins estimés en prenant en compte le nombre de personnes
+fréquentant les constructions de manière permanente (personnes travaillant dans les locaux…) et
+occasionnelle (visiteurs, livreurs, clients, etc.), ainsi que les espaces de stationnement nécessaires aux véhicules
+de service.
+Lors du calcul du nombre de places de stationnement réglementairement exigé, il convient d'arrondir celui-ci
+au nombre entier supérieur dès que la décimale est supérieure à 5.
+11e modification du PLU 13
+
+---
+
+## Page 312
+
+Zone UM 8
+Règlement pièces écrites
+- Modalités pour les opérations ou parties d’opérations comprenant plusieurs constructions et / ou types de
+destinations :
+Si une opération d'aménagement ou de construction comporte plusieurs destinations au sens du présent
+règlement, celle-ci doit satisfaire aux règles fixées pour chacune de ces destinations au prorata des normes
+applicables à chacune d’elles. Cependant, les normes précitées peuvent être réduites de 20 % maximum si les
+places de stationnement correspondent à des occupations non concomitantes. Le nombre de places à réaliser
+doit néanmoins être au moins égal à celui correspondant à la destination générant le plus de places de
+stationnement parmi les destinations concernées.
+Dans tous les cas, cette mutualisation des places de stationnement est appréciée en tenant compte de la nature
+des destinations concernées par l’opération, du taux et du rythme de fréquentation, de la situation
+géographique au regard de l'offre de stationnement accessible existant à proximité.
+- Modalités pour les constructions existantes avant l'approbation du PLU 3.1 et les changements de
+destination :
+De manière générale, les normes de stationnement ne sont pas applicables si l’augmentation de la surface de
+plancher après travaux n’excède pas 40 m². Dès lors que les normes s’appliquent, elles le sont sur la seule
+surface de plancher créée, déduction faite de 40 m².
+De plus, pour les constructions à destination d’habitation dont la surface de plancher existante avant travaux
+est inférieure ou égale à 130 m², sans création de nouveau logement, les normes de stationnement ne sont
+pas applicables si la surface de plancher après travaux est inférieure ou égale à 170 m².
+Quelle que soit la surface de plancher créée, sans changement de destination, dès lors qu’une aire de
+stationnement existante est supprimée, il n’est pas fait obligation de la reconstituer sur le terrain d’assiette de
+la construction existante. Toutefois, cette disposition peut être refusée si le report du stationnement sur les
+voies ou le domaine public présente un risque pour la sécurité des usagers de ces espaces. Cette sécurité est
+appréciée compte tenu, notamment, de leur configuration, de la nature et de l’intensité du trafic.
+Toute réalisation de nouveau logement, y compris sans création de surface de plancher, engendre l’application
+des normes indiquées au "1.4.1.3. Normes de stationnement", à l’exception des logements locatifs sociaux
+faisant l'objet d'un prêt aidé de l'Etat.
+Pour les constructions à destination de commerce situées hors périmètres de modération, sans changement
+de destination, les normes ne sont pas applicables si la surface de plancher après travaux est inférieure ou
+égale à 1 500 m².
+Lorsque les travaux concernent une construction existante bénéficiant déjà d'une offre de stationnement, le
+nombre de places à réaliser est diminué du nombre de places existantes conservées à l'issue de l'opération.
+Le nombre de places exigées lors de travaux sur une construction existante ne peut être supérieur à celui
+demandé pour une construction neuve de même surface et de même destination.
+- Conditions particulières relatives à la diversité sociale, à l'habitat et au logement :
+Pour les constructions à destination d’habitation, le nombre minimum de places de stationnement se calcule
+conformément aux normes indiquées au "1.4.1.3. Normes de stationnement". Pour chaque secteur la surface
+de plancher créée doit être divisée par la norme correspondante.
+En secteur 3, 4 et 5, ce résultat doit être rapporté au nombre de logements réalisés. Dès lors qu’il est compris
+entre 1 et 2, il en est fait application.
+Si ce rapport est inférieur à 1, le nombre minimum de places de stationnement correspond au nombre de
+logements réalisés. Dès lors qu’il excède 2, le nombre minimum de places réalisées correspond à deux fois le
+nombre de logements réalisés.
+11e modification du PLU 14
+
+---
+
+## Page 313
+
+Zone UM 8
+Règlement pièces écrites
+Exemple de calcul pour les constructions à destination d’habitation :
+- soit une opération de 36 logements, développant 3 000 m² de surface de plancher en secteur 3
+- valeur en secteur 3 : 1 place minimum pour 65 m²
+- application de la norme : 3 000 m² / 65 m² = 46,15 places arrondies à 46 minimum
+- ratio rapporté au nombre de logements : 46 / 36 = 1,27
+- le rapport est compris entre 1 et 2 : nombre de places à réaliser = 46 minimum
+Pour les constructions de logements locatifs financés avec un prêt aidé de l’État, le nombre de places de
+stationnement exigé par logement est compris entre 0 et 1.
+Par ailleurs, aucune place de stationnement pour véhicules motorisés n'est exigée dans les cas suivants :
+- lorsqu'une opération porte sur la réhabilitation, l'amélioration et / ou le changement de destination créant
+des logements locatifs sociaux financés avec un prêt aidé de l'Etat ou ayant été subventionnés dans le cadre
+du Programme Social Thématique ou du logement d'urgence ;
+- aux logements résultant d'opérations complètes de réhabilitation réalisées dans le cadre d'une opération
+programmée d'amélioration de l'habitat ou d'un programme d'intérêt général.
+Nonobstant toute disposition du présent règlement, dès lors que des logements se situent à moins de 500 m
+d’une gare ou d’une station de transport public guidé ou de transport collectif en site propre, et que la qualité
+de desserte le permet, le nombre de places de stationnement exigibles ne peut dépasser :
+- 0,5 place par logement pour la construction de logements financés avec un prêt aidé de l’Etat,
+d’établissements assurant l’hébergement des personnes âgées et de résidences universitaires ;
+- 1 place par logement pour les autres catégories de logements.
+- Conditions particulières relatives aux commerces et aux cinémas :
+Nonobstant toute disposition contraire des règles spécifiques à chaque zone, les surfaces, bâties ou non,
+affectées aux aires de stationnement, annexes d'un commerce soumis à l'autorisation d'exploitation
+commerciale prévue aux 1° et 4° du I de l'article L.752-1 du Code de commerce et à l'autorisation prévue au 1°
+de l'article L.212-7 du Code du cinéma et de l'image animée, ne peuvent excéder un plafond correspondant
+aux trois quarts de la surface de plancher des bâtiments affectés au commerce.
+Les espaces paysagers en pleine terre, les surfaces réservées à l'autopartage et les places de stationnement
+dédiées à l'alimentation des véhicules électriques ou hybrides rechargeables sont déduits des surfaces
+affectées au stationnement. La surface des places de stationnement non imperméabilisées compte pour la
+moitié de leur surface.
+Lorsqu'un établissement de spectacles cinématographiques soumis à l'autorisation prévue aux articles L. 212-
+7 et L.212-8 du Code du cinéma et de l'image animée n'est pas installé sur le même site qu'un commerce soumis
+aux autorisations d'exploitation commerciale prévues à l'article L.752-1 du Code de commerce, les surfaces,
+bâties ou non, affectées aux aires de stationnement annexes de cet établissement de spectacles
+cinématographiques ne doivent pas excéder une place de stationnement pour trois places de spectateur. Ces
+dispositions ne font pas obstacle aux travaux de réfection et d'amélioration ou à l'extension limitée des
+bâtiments commerciaux existant le 15 décembre 2000.
+- Conditions particulières relatives à l'impossibilité de réaliser des places de stationnement :
+Lorsque le pétitionnaire ne peut pas satisfaire aux obligations imposées par le présent règlement, il peut être
+tenu quitte de ces obligations en justifiant, pour les places qu'il ne peut réaliser lui-même, soit de l'obtention
+d'une concession à long terme dans un parc public de stationnement existant ou en cours de réalisation et
+situé à proximité de l'opération, soit de l'acquisition ou de la concession de places dans un parc privé de
+stationnement répondant aux mêmes conditions.
+1.4.1.3. Normes de stationnement
+Les normes de stationnement indiquées dans le tableau ci-après s’appliquent aux constructions nouvelles, aux
+constructions existantes et changements de destination. Dans ces deux derniers cas, les normes s’appliquent
+conformément aux conditions définies dans les "modalités pour les constructions existantes et les
+changements de destination" fixées au "1.4.1.2. Modalités de calcul des places de stationnement" ci-dessus.
+11e modification du PLU 15
+
+---
+
+## Page 314
+
+Zone UM 8
+Règlement pièces écrites
+11e modification du PLU 16
+
+---
+
+## Page 315
+
+Zone UM 8
+Règlement pièces écrites
+1.4.2. Stationnement des vélos
+1.4.2.1. Modalités qualitatives de réalisation des places de stationnement
+Les places de stationnement doivent être mises en œuvre pour des conditions normales de fonctionnement et
+dans le respect de la réglementation en vigueur.
+Les espaces dédiés au stationnement des vélos doivent être sécurisés, protégés des intempéries (a minima
+couverts) et facilement accessibles depuis le domaine public et l’entrée du bâtiment. Ils doivent également être
+aménagés de manière à être fonctionnels pour que chaque vélo, y compris les vélos non standards (vélos
+cargos ou assimilés), puisse aisément circuler et dispose d'un système d’attache adapté et de sécurisation
+individuel (par exemple un dispositif fixe permettant de stabiliser et d'attacher le vélo par le cadre).
+Si la surface de stationnement vélo requise règlementairement est inférieure ou égale à la moitié de la surface
+du rez-de-chaussée, l’offre de stationnement doit être réalisée de plain-pied, sauf impossibilité technique.
+Si la surface de stationnement vélo requise règlementairement est supérieure à la moitié de la surface du rez-
+de-chaussée :
+- au moins la moitié de la surface du rez-de-chaussée doit accueillir du stationnement vélo, sauf impossibilité
+technique,
+- le reste de l’offre peut être répartie sur d’autres niveaux dès lors que le projet prévoit un accès (un monte-
+charge éventuellement doublé d’une rampe à faible pente) suffisamment dimensionné, et permettant un accès
+direct aux locaux sécurisés et adaptés, à chacun des niveaux concernés.
+L'offre de stationnement pour les vélos doit se situer sur l'unité foncière de l’opération, ou dans son
+environnement immédiat notamment pour faciliter une offre mutualisée. Dans ce cas, l'offre de stationnement
+doit être facilement accessible à pied, par un parcours de moins de 100m depuis l'entrée de la construction.
+1.4.2.2. Modalités de calcul des places de stationnement
+Les normes de stationnement vélos sont applicables à toute construction.
+Pour les constructions à destination d’habitation, les normes de stationnement vélos s’appliquent à toute
+construction ou opération de deux logements ou plus, y compris par changement de destination. Dans le cas
+de logements individuels groupés comprenant des garages individuels, le stationnement vélo peut être inclus
+dans ces garages dès lors qu’ils sont suffisamment dimensionnés.
+Le calcul du nombre de places de stationnement est réalisé au regard des destinations et des normes indiquées
+au "1.4.2.3. Normes de stationnement". Les surfaces dédiées aux circulations ne sont pas comprises dans ce
+calcul.
+Lorsque les travaux concernent une construction existante bénéficiant déjà d'une offre de stationnement, le
+nombre de places à réaliser est diminué du nombre de places existantes conservées à l'issue de l'opération.
+Le nombre de places exigées lors de travaux sur une construction existante ne peut être supérieur à celui
+demandé pour une construction neuve de même surface et de même destination.
+Dans les cas où une norme de stationnement pour les vélos est définie, des espaces de stationnement libres
+de tout mobilier au sol permettant le stationnement des vélos non standards doivent également être réalisés
+à hauteur d’au moins une place (de dimension minimale de 3m X 1,20m) par tranche de 30 m² de surface de
+stationnement réservée aux vélos.
+11e modification du PLU 17
+
+---
+
+## Page 316
+
+Zone UM 8
+Règlement pièces écrites
+1.4.2.3. Normes de stationnement
+11e modification du PLU 18
+
+---
+
+## Page 317
+
+Zone UM 8
+Règlement pièces écrites
+2. Morphologie urbaine
+Le présent chapitre permet de définir les droits à construire applicables aux constructions et utilisations du sol autorisées
+au précédent chapitre.
+Ces droits à construire sont déterminés par l'application cumulée des règles d’implantation (recul (R), retrait par rapport
+aux limites séparatives (L1 et L2), bandes d'implantation, emprise bâtie, hauteurs (HT et HF) et espace en pleine terre).
+Pour connaître les dispositions règlementaires applicables à tout projet, il faut se référer à l'ensemble des
+chapitres :
+- "2.2. Dispositions réglementaires - cas général"
+- "2.3. Cas particuliers" pour les règles morphologiques
+- "2.4. Aspect extérieur des constructions et aménagement de leurs abords"
+2.1. Définitions et principes
+2.1.1. Emprise bâtie
+Définition
+L'emprise bâtie fixée au présent règlement diffère de l'emprise au sol définie par le Code de l'urbanisme.
+L'emprise bâtie maximale est définie soit par un pourcentage appliqué à la surface du terrain ou à la surface de la bande
+d'implantation, soit par une surface maximum.
+L'emprise bâtie correspond à la projection au sol des volumes bâtis.
+Sont déduits :
+- tout ou partie des oriels, éléments de décor architecturaux, bacs pour plantations, débords de toitures, dans la limite
+de 1 m de débord ;
+- tout ou partie des balcons et des terrasses dépassant de plus de 60 cm du sol existant avant travaux, dans la limite de
+1,5m de débord ;
+- les marquises ou auvents sans appui au sol protégeant les accès à la construction à hauteur du rez-de-chaussée et les
+emmarchements ;
+- les dispositifs de protection solaire (pare-soleils…) ;
+- les dispositifs nécessaires à la récupération des eaux pluviales ;
+- les dispositifs nécessaires à l'amélioration des performances thermiques des constructions existantes ;
+- les dispositifs d'accessibilité des personnes à mobilité réduite (rampes, élévateurs…).
+De même, ne sont pas pris en compte dans l’emprise bâtie :
+- les constructions ou parties de constructions ne dépassant pas de plus de 60 cm le sol existant avant travaux
+(notamment les piscines non couvertes) ;
+- par logement, une seule construction d'emprise au sol inférieure ou égale à 10 m² et de hauteur totale inférieure à
+2,50 m ;
+- les murs de clôture et les murs de soutènement ;
+- les dispositifs voués au stationnement des vélos, couverts et non fermés par des murs pleins ;
+- les dispositifs nécessaires à l'utilisation ou à la production d'énergies renouvelables ;
+- les composteurs ;
+- les dispositifs de protection contre le bruit des infrastructures prévus le cas échéant en application du "1.3.4. Conditions
+particulières relatives à la salubrité, à la prévention des risques et à la protection contre les nuisances", du présent
+règlement.
+11e modification du PLU 19
+
+---
+
+## Page 318
+
+Zone UM 8
+Règlement pièces écrites
+2.1.2. Implantation des constructions
+Les implantations sont définies par des reculs (R), des retraits (L1 et L2) et/ou le cas échéant, des bandes
+d’implantation.
+2.1.2.1. Recul (R)
+Définition
+Le recul R d'une construction est la distance mesurée, perpendiculairement aux voies, qu'elles soient publiques ou
+privées ("voiries à vocation dominante des déplacements", "voiries à vocation relationnelle et de proximité" telles que
+définies au "3.1.2 Conditions de desserte" du présent règlement) et aux emprises publiques, existantes ou projetées.
+Ce recul ne s'applique qu'aux constructions implantées en premier rang, c'est-à-dire les plus proches de la voie ou de
+l’emprise publique (VEP).
+Constitue une emprise publique un espace existant ou à créer ouvert au public et pouvant donner accès directement
+aux terrains riverains. Ces espaces sont ouverts à la circulation des piétons, des 2 roues et/ou des véhicules motorisés.
+La marge de recul est issue de l’application du recul R. Il s’agit de l’espace compris entre le recul minimum imposé et
+la voie ou l’emprise publique.
+Principes généraux
+A l’intérieur des marges de recul sont exclusivement autorisés :
+- tout ou partie des oriels, éléments de décors architecturaux, bacs pour plantations ou compostage, débords
+de toitures, les dispositifs de protection solaire, les dispositifs nécessaires à la production et l’utilisation des
+énergies renouvelables (tels que les capteurs d’énergie solaire) et à l’isolation par l’extérieur, chacun n’excédant
+pas 1 m de profondeur ;
+- tout ou partie des balcons et des terrasses dépassant de plus de 60 cm du sol existant avant travaux dans la
+limite de 1,5m de débord ;
+- les clôtures, les marquises, les auvents à hauteur du rez-de-chaussée et les emmarchements, les
+constructions ou parties de constructions dont la hauteur ne dépasse pas de plus de 60 cm le sol existant avant
+travaux, à l’exception des piscines ;
+- les locaux ou aires de présentation des bacs destinés à la collecte des déchets à condition qu’ils bénéficient
+d’un traitement qualitatif et paysager en lien avec le secteur environnant et que leur gestion soit en conformité
+avec le règlement de collecte en vigueur ;
+- les places de stationnement telles que prévues à l’article 2.4.4.2.
+Peuvent également être implantés dans les marges de recul, les dispositifs destinés à assurer l'accès des
+constructions existantes aux personnes à mobilité réduite.
+2.1.2.2. Retraits (L1 et L2)
+Définition
+Le retrait L d'une construction est la distance mesurée perpendiculairement aux limites séparatives L1 ou L2.
+Celles-ci s’entendent de la manière suivante :
+- L1 : il s’agit de limites séparatives latérales ;
+- L2 : il s’agit de limites séparatives de fond de terrain, généralement à l’opposé de la voie.
+Le retrait L peut dépendre de l'existence d'une baie. Ne constitue pas une baie :
+- une ouverture située à plus de 2,60 m au-dessus du plancher en rez-de-chaussée ou à plus de 1,90 m au-dessus du
+plancher pour les étages supérieurs ;
+- une ouverture dans une toiture en pente n'offrant pas de vue directe ;
+- une porte non vitrée ;
+- un châssis fixe et à vitrage translucide.
+11e modification du PLU 20
+
+---
+
+## Page 319
+
+Zone UM 8
+Règlement pièces écrites
+Principes généraux
+A l’intérieur des marges de retrait sont exclusivement autorisés : les dispositifs de protection solaire, tout ou
+partie des balcons, oriels, éléments de décors architecturaux, bacs pour plantations, débords de toitures, les
+dispositifs nécessaires à l’utilisation et à la production des énergies renouvelables (tels que les capteurs
+d’énergie solaire) et à l’isolation par l’extérieur, chacun n’excédant pas 1 m de profondeur. Sont également
+autorisées les constructions de faibles dimensions telles que précisées au "2.3. Cas particuliers" du présent
+règlement, les constructions ou parties de constructions dont la hauteur ne dépasse pas de plus de 60 cm le
+sol existant avant travaux, les clôtures, les marquises, les auvents à hauteur du rez-de-chaussée et les
+emmarchements.
+Peuvent également être implantés dans les marges de retrait, les dispositifs destinés à assurer l'accès des
+constructions existantes aux personnes à mobilité réduite.
+2.1.2.3. Bandes d'implantation
+Définition
+Les règles d’implantation peuvent être déterminées en fonction d’une ou plusieurs bandes d’implantation (bandes A
+et B). Elles sont établies parallèlement à la limite :
+- des voies existantes ou projetées répondant aux dispositions fixées au "3.1. Desserte par la voirie" du chapitre "3.
+Desserte par les réseaux et services urbains" du présent règlement ;
+- des emprises publiques dont la largeur au droit du terrain est supérieure ou égale à 6,5 m, et à condition qu'elles
+s'intègrent au maillage viaire environnant.
+Elles sont mesurées à compter de cette limite.
+Dès lors qu'une marge de recul R minimale ou imposée est fixée, la ou les bandes constructibles sont mesurées à
+compter de ce recul R.
+Principes généraux
+Une construction peut être implantée à cheval sur deux bandes d'implantation dès lors qu’elle respecte les
+règles de chacune d’elles.
+Peuvent être implantés hors des bandes d'implantation, les dispositifs destinés à assurer l'accès des
+constructions existantes aux personnes à mobilité réduite.
+2.1.3. Hauteurs (HF et HT)
+Définition
+La hauteur H d'une construction est la différence d'altitude mesurée verticalement entre, d'une part le niveau du sol avant
+travaux ou, le cas échéant, le niveau de la voie ou de l'emprise publique (VEP) et d'autre part, un point spécifique de la
+construction.
+- Pour la hauteur de façade HF, ce point est situé soit à la corniche ou à la ligne de l'égout dans le cas d'un toit en pente,
+soit à l'acrotère dans le cas d'une toiture terrasse.
+- Pour la hauteur totale HT, il s'agit du point le plus élevé de la construction.
+11e modification du PLU 21
+
+---
+
+## Page 320
+
+Zone UM 8
+Règlement pièces écrites
+Les constructions ne doivent pas dépasser selon le cas un ou plusieurs des éléments suivants :
+- une hauteur de façade HF ;
+- une hauteur totale HT ;
+- un gabarit ;
+- un nombre de niveaux.
+Toutefois, ne sont pas pris en compte dans le calcul des hauteurs HF et HT :
+- les éléments techniques tels que cheminées, dispositifs nécessaires à l'utilisation ou à la production d'énergies
+renouvelables ; dispositifs nécessaires à la récupération de l'eau pluviale, dispositifs nécessaires à l'amélioration des
+performances thermiques des constructions existantes et à la protection solaire ;
+- les éléments de décors architecturaux et les garde-corps ajourés ;
+- les épaisseurs de terre et dispositifs nécessaires à la réalisation des toitures végétalisées ;
+- une sur-hauteur de 1,10 m maximum de l'acrotère quand celle-ci fait fonction d'équipement de sécurité des terrasses
+inaccessibles.
+Principes généraux
+Si le principe constructif lié à l’utilisation de matériaux biosourcés induit des hauteurs différentes pour un même
+nombre de niveaux, alors les HF et les HT peuvent être adaptées en conséquence.
+L'indication HF (A) fixée au plan de zonage établit la possibilité pour une construction neuve de réaliser un dernier
+étage en attique. Il est alors fait application des dispositions suivantes :
+- il n’est pas tenu compte, le cas échéant, du gabarit fixé par ailleurs ;
+- l'étage en retrait est obligatoirement en recul d'au moins 2,50 m par rapport au nu des façades principales. Ce
+recul ne s’applique pas aux façades pignons adossées aux limites séparatives latérales ;
+- le débord de toiture ou de pergola au-dessus du retrait de l'étage en attique ne peut dépasser 1 m ;
+- si la hauteur HF (A) est fixée à partir de la voie ou de l'espace public existant ou projeté, elle ne s'applique que
+dans la bande A ou, à défaut, dans une bande de 18 m à compter de la voie ou de l'espace public (ou du recul
+minimum imposé le cas échéant). Dans les autres cas, la HF (A) s'applique sur toute la zone.
+Dans le cadre d’une façade latérale :
+- il est fait application de la HF ;
+- la HT est adaptée pour permettre l’élévation du pignon (partie supérieure du mur portant les versants du toit).
+11e modification du PLU 22
+
+---
+
+## Page 321
+
+Zone UM 8
+Règlement pièces écrites
+2.1.4. Espaces en pleine terre
+Définition
+Les espaces en pleine terre minimum (EPT) sont définis par une valeur en m² ou un pourcentage appliqué à la surface du
+terrain ou à la surface de la bande d'implantation. Le cas échéant, ce pourcentage peut être complété par l’inscription
+d’un cercle d’un diamètre minimum donné permettant la plantation d’au moins un arbre.
+Les espaces en pleine terre correspondent à la surface du terrain non artificialisée en pleine terre, plantée ou à planter.
+Ils ne peuvent pas faire l'objet de constructions, y compris enterrées, d'installations et d'aménagements conduisant à
+limiter la capacité naturelle d'infiltration du sol.
+Sont notamment interdits dans les EPT :
+- les voiries, à l'exception des sentes piétonnes à revêtements poreux ;
+- l’emprise des bandes d’accès ou des servitudes de passage ;
+- l'aménagement de tout stationnement ;
+- la construction de tous types de bassins à fond étanche (piscines...) ;
+- les fosses d'assainissement individuel.
+Toutefois, sont admis dans les EPT :
+- les dispositifs de géothermie horizontale de surface ;
+- dans les secteurs d'assainissement individuel, les aménagements nécessaires à l'épandage en sortie de fosse ;
+- les dispositifs d'arrosage enterré ;
+- les dispositifs permettant d'assurer l'accessibilité des personnes à mobilité réduite réalisés sur des constructions
+existantes ;
+- les clôtures.
+Principes généraux
+Au moins la moitié de ces espaces doit être d’un seul tenant, configurée pour planter les arbres requis
+règlementairement et doit permettre un véritable usage de cet espace à vivre.
+Lorsqu'un pourcentage d'emprise bâtie supérieur à celui du règlement écrit de la zone est porté au plan de zonage,
+le pourcentage d'espace en pleine terre imposé est diminué dans les mêmes proportions. Le différentiel doit être
+compensé par le biais du coefficient de végétalisation décrit au 2.1.5.
+Lorsque l'espace en pleine terre existant avant travaux ne respecte pas les normes imposées, il y est dérogé à
+condition de ne pas aggraver l'imperméabilisation du sol. Dans ce cas, l’espace en pleine terre manquant est
+compensé au maximum par le biais du coefficient de végétalisation décrit au 2.1.5.
+Dans ces deux cas, la mise en œuvre du coefficient s’ajoute à la proportion fixée au 2.2.1.
+2.1.5. Coefficient de végétalisation (CV)
+Définition
+Le coefficient de végétalisation favorise la végétalisation du bâtiment et de ses abords (mur végétal, dalle plantée,
+parking...). Il permet de répondre de manière complémentaire à des objectifs de biodiversité, de rafraîchissement, de
+confort thermique et de qualité paysagère. Il s’applique en plus de l’espace en pleine terre.
+L’obligation est définie par un pourcentage appliqué à la surface du terrain.
+On peut y répondre selon différentes modalités (présentées dans le tableau ci-après) qui peuvent être combinées, chacune
+d’elle bénéficiant d’un coefficient de pondération.
+11e modification du PLU 23
+
+---
+
+## Page 322
+
+Zone UM 8
+Règlement pièces écrites
+A titre indicatif,
+Coefficient de équivalence
+Modalités de mise en œuvre
+pondération pour 10 m² avec
+le CV
+Espace en pleine terre 1 10m²
+Espace vert sur dalle avec système d’arrosage et avec une épaisseur
+de terre végétale supérieure à 2 m 0,9 11 m²
+Espace vert sur dalle avec système d’arrosage et avec une épaisseur
+de terre végétale comprise entre 80 cm et 2 m 0,7 14 m²
+Espace vert sur dalle avec une épaisseur de terre végétale comprise
+entre 30 cm et inférieure 80 cm 0,5 20 m²
+Revêtement semi-perméable ou aux joints enherbés pour
+stationnement ou voies pompier (exemples : modules alvéolaires,
+pas japonais, pavés ou dalles non jointées sur couche de
+gravier/sable…) 0,2 50 m²
+Plante grimpante dans une fosse de plantation de 60x60x60 cm
+minimum (une surface de support de 5 m² est comptée pour chaque
+plante) 0,7 14 plantes
+Mur végétalisé avec un système d’arrosage et avec substrat hors-sol 0,3 33 m²
+Jardinière sur toit ou en balcon constitutive de l'architecture de
+dimension minimale de 30x30x30 cm 0,3 33 m²
+Toiture végétalisée intensive, plantée avec système d’arrosage,
+recouverte de plus de 30 cm de terre végétale (hors installations
+techniques) 0,7 14 m²
+Toiture végétalisée semi-intensive recouvertes de 15 à 30 cm de terre
+végétale 0,5 20 m²
+Toiture végétalisée extensive avec substrat supérieur ou égal à 5 cm 0,4 25 m²
+Principes généraux
+MODE DE CALCUL :
+Calcul de l’obligation :
+Surface du terrain x % requis = CV
+Modalités de réponse :
+(surface de type A x coefficient de pondération A) + (surface de type B x coefficient de pondération B) + … + (surface
+de type K x coefficient de pondération K) ≥ CV
+Exemples (non exhaustifs) de mise en œuvre pour une parcelle de 500 m² avec un coefficient de végétalisation de
+5%, soit un CV = 500 x 5% = 25 :
+- 25 m² d’espace en pleine terre (25x1= 25)
+- 50 m² de toiture végétalisée semi-intensive (50x0,5 = 25)
+- 50 m² de stationnement aux joints enherbés + 14 plantes grimpantes + 5 m² d’espace en pleine terre (50x0,2 +
+10 + 5x1 = 25)
+- 40 m² d’espace vert sur dalle de 30 cm + 7 plantes grimpantes (40x0,5 + 5 = 25,1)
+- 33 m² de mur végétalisé + 38 m² de toiture végétalisée extensive (33x0,3 + 38x0,4 = 25)
+- 50 m² de stationnement semi-perméable + 24 m² de toiture semi-intensive + 2 jardinières en balcon de 1mx5m
+(50x0,2 + 24x0,5 + 10x0,3 = 25).
+11e modification du PLU 24
+
+---
+
+## Page 323
+
+Zone UM 8
+Règlement pièces écrites
+2.1.6. Constructions existantes
+Définition
+Constitue une construction existante au sens du présent règlement une construction existante avant l’approbation du PLU
+3.1 comprenant l'essentiel des éléments de structures (fondations, murs porteurs, façades, planchers et couverture).
+Les travaux effectués sur les constructions existantes consistent, notamment, à en changer la destination, à en modifier
+les façades, les toitures, et/ou les volumes existants, à étendre l'emprise bâtie dans la continuité directe des éléments
+bâtis existants…
+Principes généraux
+Si les travaux d’extension conduisent à au moins doubler l'emprise bâtie de la construction existante, les règles de
+"morphologie urbaine" applicables sont celles de la construction neuve. Dans le cas contraire, les règles applicables
+sont celles de la construction existante.
+Lorsque l’extension a pour objet la création de nouveau(x) logement(s), les règles applicables sont celles de la
+construction neuve fixées au "2.2.1. Constructions, installations et aménagements neufs" du présent règlement.
+2.2. Dispositions réglementaires - cas général
+L'implantation des constructions et installations doit ainsi s'appuyer sur les composantes du site préexistant et de
+son environnement immédiat en tenant compte notamment de :
+- l'implantation des constructions avoisinantes ;
+- la topographie ;
+- des masses végétales et des arbres qui participent à la qualité du paysage. Les constructions et installations sont
+réalisées en dehors du houppier des arbres existants conservés et celui des arbres projetés mesurés à l’âge adulte ;
+- la proximité d’un élément de patrimoine écologique, naturel, bâti et/ou paysager ;
+Par ailleurs, l'organisation du bâti doit permettre de préserver des vues sur les espaces verts perceptibles depuis la
+voie.
+Les constructions sont soumises aux dispositions réglementaires applicables aux constructions neuves ou existantes
+avant l'approbation du PLU 3.1, suivant le "2.1. Définitions et principes" et les règles fixées ci-après.
+Pour les constructions neuves, il est nécessaire de se référer au "2.2.1. Constructions, installations et
+aménagements neufs" du présent règlement.
+Pour les travaux concernant les constructions existantes, il faut se référer au "2.2.2. Constructions, installations
+et aménagements existants avant l'approbation du PLU 3.1" du présent règlement.
+Ces règles sont définies par une règle écrite et / ou indiquées, pour tout ou partie, au plan de zonage. Dès lors qu’une
+règle est portée au plan de zonage et à sa légende, elle se substitue à la règle écrite.
+Toutefois, certains cas peuvent relever de dispositions réglementaires particulières indiquées au "2.3. Cas
+particuliers".
+Dès lors qu’un projet cumule, sur le même terrain d’assiette, une construction neuve et des travaux d’extension sur
+construction existante avant l’approbation du PLU 3.1, il est fait application pour l’ensemble du projet des règles pour
+les constructions existantes concernant les emprises bâties et les espaces en pleine terre.
+Dans le cas d’un lotissement ou dans celui de la construction sur un même terrain de plusieurs bâtiments dont le terrain
+d’assiette doit faire l’objet d’une division en propriété ou en jouissance, l’intégralité des règles fixées ci-après est
+applicable à chaque terrain issu des divisions projetées, sauf pour les opérations de plus de 5 000 m² de surface de
+plancher. Dans ce dernier cas, l’intégralité des règles fixée ci-après s’applique à l’ensemble du projet ; toutefois, chaque
+terrain issu des divisions devra être configuré pour inscrire un cercle de 5 mètres minimum de diamètre en pleine terre.
+11e modification du PLU 25
+
+---
+
+## Page 324
+
+Zone UM 8
+Règlement pièces écrites
+Tout projet de construction(s) neuve(s) d’une surface de plancher supérieure à 1000 m² doit comporter :
+- soit des installations de production d’énergies renouvelables
+- soit un système de végétalisation basé sur un mode cultural garantissant un haut degré d’efficacité thermique et
+d’isolation et favorisant la préservation et la reconquête de la biodiversité.
+2.2.1. Constructions, installations et aménagements neufs ou créés après
+l’approbation du PLU3.1
+Emprise bâtie (EB) ≤ 40% superficie du terrain
+R ≥ 0 m si H ≤ 6 m
+F
+R ≥ 3 m si 6 m < H ≤ 9 m
+F
+Recul (R)
+R ≥ 6 m si H > 9 m
+F
+Si la VEP ≥ 16 m : R ≥ 0 m quelle que soit la hauteur de la construction
+L ≥ 0 m si H ≤ 3,50 m en tenant compte de l’implantation des
+F
+Retrait latéral (L1)
+Si H F ≤ 6 m constructions sur les terrains contigus
+Retrait fond de parcelle
+L ≥ 4 m si H > 3,50 m
+F
+(L2)
+Si H F > 6 m L ≥ H F – 3,50 m minimum 4 m
+≥ 35 % superficie de terrain
+Espace en pleine terre
+Obligation d’inscrire un cercle de 10 m de diamètre dans la partie du terrain en
+(EPT)
+pleine terre
+Coefficient de
+≥ 5% de coefficient de végétalisation en plus de l’EPT requis règlementairement
+végétalisation (CV)
+Hauteur fixée au plan de zonage par défaut H = 15 m
+T
+Hauteur façade (HF) Gabarit : H
+F
+= 6 m / Pente 100% / H
+T
+= 9 m (schéma ci-après)
+Hauteur totale (HT) Si H F ≤ 6 m Le gabarit ne s’applique pas aux façades pignons.
+Dans ce cas, H ≤ 6 m et H ≤ 9 m
+F T
+2.2.2. Constructions, installations et aménagements existants avant
+l'approbation du PLU 3.1
+Emprise bâtie (EB) EB non règlementée
+R ≥ 0 m si H ≤ 6 m
+F
+R ≥ 3 m si 6 m < H ≤ 9 m
+F
+Recul (R)
+R ≥ 6 m si H > 9 m
+F
+Si la VEP ≥ 16 m : R ≥ 0 m quelle que soit la hauteur de la construction.
+L ≥ 0 m si H ≤ 3,50 m en tenant compte de l’implantation
+F
+Retrait latéral (L1) Si H F ≤ 6 m des constructions sur les terrains contigus
+Retrait fond de parcelle (L2) L ≥ 4 m si H F > 3,50 m
+Si H F > 6 m L ≥ H F -3,50 m minimum 4 m
+Espace en pleine terre (EPT) ≥ 35% superficie du terrain
+Hauteur fixée au plan de zonage
+Hauteur façade (HF) Par défaut H T = 15 m
+Hauteur totale (HT) Surélévations ≤ 2 niveaux supplémentaires (6 m) au-delà de la hauteur fixée ci-
+dessus
+11e modification du PLU 26
+
+---
+
+## Page 325
+
+Zone UM 8
+Règlement pièces écrites
+Lorsque la construction existante avant travaux n’est pas érigée suivant les présentes règles, un agrandissement
+sous forme d’extension ou de surélévation peut être autorisé dans le respect des autres dispositions du présent
+règlement sans toutefois aggraver la situation s’agissant de la ou des règles non respectées. En cas de non respect
+des L1 et L2, il sera tenu compte des constructions sur les terrains contigüs, notamment pour préserver leur
+ensoleillement et limiter les vis-à-vis créés.
+2.3. Cas particuliers
+Les dispositions réglementaires suivantes sont autorisées ou imposées, selon le cas, soit en substitution, soit en
+complément de celles fixées au "2.2. Dispositions réglementaires - cas général", ou portées au plan de zonage.
+2.3.1. Piscines et constructions annexes à l'habitation de faibles dimensions
+Les présentes règles sont applicables sous réserve des dispositions fixées aux "1.2. Occupations et utilisations du
+sol interdites" et "1.3. Occupations et utilisations du sol soumises à conditions particulières" de la présente zone.
+Construction annexe à l’habitation (garage, dépendance …) :
+Pour chaque logement une seule construction annexe à l’habitation (garage, dépendance) et sans disposer d’accès
+direct avec celle-ci peut être implantée dans les marges de retrait et sans tenir compte du cercle d’EPT, dès lors
+qu’elle n’est pas constitutive d’un nouveau logement et que les conditions suivantes sont cumulativement
+remplies :
+- une emprise bâtie inférieure ou égale à 30 m² ;
+- une hauteur totale inférieure ou égale à 4,50 m ;
+- une hauteur de façade inférieure ou égale à 3,50 m ;
+- absence de baie générant une vue droite sur la parcelle voisine.
+Petite construction (abri de jardin, réserve à bois…) :
+Est implantée en ne tenant compte ni des retraits, ni de l'emprise bâtie, ni du cercle d’EPT, tout en respectant un
+recul minimum de 3 mètres, une seule petite construction par logement sans disposer d’accès direct avec celui-ci,
+dès lors que son emprise bâtie est inférieure ou égale à 10 m² et que sa hauteur totale est inférieure ou égale à
+2,50 m.
+Piscine :
+Dans le cas d’une construction principale existante avant l’approbation du PLU 3.1, une piscine par logement dont
+la hauteur n'excède pas 60 cm est autorisée dès lors qu’elle respecte un recul minimum de 3 mètres et le
+pourcentage d’espace en pleine terre. Le cercle d’EPT, quant à lui, n’est pas requis.
+2.3.2. Constructions et installations techniques nécessaires aux services publics
+ou d'intérêt collectif (SPIC)
+Les règles édictées le cas échéant au "2.2. Dispositions réglementaires - cas général" ne s'appliquent pas aux
+installations techniques nécessaires aux services publics ou d’intérêt collectif telles que châteaux d’eau,
+équipements ferroviaires ou portuaires, antennes de téléphonie mobile, éoliennes, panneaux solaires, poteaux,
+pylônes, transformateurs, mobiliers enterrés et semi-enterrés de collecte des déchets ménagers, installations
+techniques nécessaires aux réseaux de production et de distribution d’énergie et de télécommunications…
+Dans le cas d’une construction comprenant de 50 % à 100 % de surface de plancher destinée à des constructions
+ou installations nécessaires au service public ou d’intérêt collectif, s’il est démontré que les dispositions
+réglementaires prévues aux articles 2.2.1 ou 2.2.2 empêchent la mise en œuvre et le bon fonctionnement du SPIC,
+des reculs et/ou des retraits différents peuvent être autorisés. Dans les mêmes conditions les bandes
+d’implantation, emprises bâties et espaces en pleine terre ne sont pas réglementés ; dans ce cas l’espace en pleine
+terre manquant sera compensé au maximum par la mise en œuvre du coefficient de végétalisation. La hauteur est
+déterminée en tenant compte de la nature du SPIC, de ses besoins ainsi que du contexte et du parti architectural.
+11e modification du PLU 27
+
+---
+
+## Page 326
+
+Zone UM 8
+Règlement pièces écrites
+2.3.3. Règles particulières relatives aux commerces existants et au maintien de
+leur activité sur site
+Dans le cas d’une construction existante avant l’approbation du PLU 3.1 à destination de commerce, des règles
+différentes peuvent être autorisées dès lors qu’un projet de réhabilitation, d’extension et / ou de surélévation
+permet le maintien de l’activité sur site. Cette possibilité est également valable pour une opération de démolition
+reconstruction sur site ou dans un environnement immédiat, pour permettre le maintien d’une activité
+commerciale existante avant l’approbation du PLU3.1, dans le cas où il est démontré qu’il n’est pas pertinent de
+conserver le bâtiment d’origine.
+Les reculs et les retraits sont supérieurs ou égal à 0 m. La hauteur totale ne peut excéder 12 m sauf hauteur
+supérieure fixée au présent règlement ou au plan de zonage.
+Le cas échéant, les bandes d’implantation, emprises bâties et espaces en pleine terre ne sont pas réglementés,
+l’espace en pleine terre manquant sera compensé au maximum par les modalités de mise en œuvre du coefficient
+de végétalisation.
+2.3.4. Implantations différentes
+Une implantation différente peut être autorisée dès lors qu’il est démontré que cette dernière permet d’améliorer
+les performances énergétiques de la construction par la mise en œuvre d’une construction bioclimatique
+(ensoleillement, double orientation…).
+2.3.4.1. Règles particulières pour la prise en compte d’un contexte parcellaire singulier
+Un recul différent de celui fixé au "2.2. Dispositions réglementaires - cas général" ci-dessus peut être autorisé
+en vue d’harmoniser l’implantation des constructions d’une séquence le long d’une voie. Dans ce cas, il est tenu
+compte du recul de fait des constructions existant sur la séquence.
+Dans le cas d'un terrain bordé par plusieurs voies et/ou emprises publiques, le recul s'applique sur au moins
+l'une d'entre elles. Sur les autres, le recul ne peut être inférieur au recul minimum imposé.
+Des dispositions particulières relatives aux terrains de faible profondeur peuvent s’appliquer dès lors que ces
+terrains existent à la date d'approbation du présent PLU 3.1 ou qu’ils sont issus d’une division n'ayant pas eu
+pour effet de réduire la profondeur initiale. Ainsi, sur un terrain ou une partie de terrain dont la profondeur
+est inférieure ou égale à 18 m, les constructions peuvent être implantées en respectant les retraits suivants :
+L1 et L2 = 0 pour les façades sans baies ou L1 et L2 supérieur ou égal à 4 m pour les façades avec baies. Dans
+ce cas, l’emprise bâtie et les espaces en pleine terre ne sont pas réglementés.
+Un terrain situé à l’angle de deux VEP est considéré comme un terrain de faible profondeur, lorsqu’au moins
+une des profondeurs du terrain est inférieure à 18 mètres.
+Pour les constructions implantées à l’alignement des voies ou emprises publiques, l’occupation du domaine
+public peut être autorisée dans le cadre de la mise en place d’une isolation par l’extérieur, sans ancrage au sol,
+sous réserve d’une bonne intégration dans l’environnement urbain. Ces surépaisseurs peuvent être refusées
+pour tenir compte des caractéristiques de voirie (largeur des trottoirs, sécurité…).
+2.3.4.2. Règles particulières pour la prise en compte des nuisances et des risques
+Sur les communes de Saint-Vincent de Paul et d'Ambarès-et-Lagrave, à proximité des emprises ferroviaires,
+une distance au moins égale à 25 m par rapport à la limite des emprises ferroviaires des lignes à grande vitesse
+est imposée pour toutes les constructions nouvelles.
+Règles particulières relatives au bruit des infrastructures :
+Les projets à destination d’habitation doivent être conçus de manière à réduire le bruit au sein de la
+construction et des espaces extérieurs de l’opération.
+11e modification du PLU 28
+
+---
+
+## Page 327
+
+Zone UM 8
+Règlement pièces écrites
+Le long d’une infrastructure repérée comme "périmètres d’isolement acoustique des secteurs situés au
+voisinage des infrastructures de transports terrestres" dans le plan des périmètres divers figurant en annexes
+informatives du PLU, une implantation différente de celle fixée au "2.2. Dispositions réglementaires - cas
+général" peut ainsi être admise concernant tout nouveau projet de construction.
+Toutefois, le projet doit être conçu de manière à s’intégrer dans les perspectives urbaines et paysagères, dans
+le respect des dispositions du présent règlement.
+Règles particulières relatives au risque feu de forêt :
+Dans le cas d'un terrain à moins de 25 m d’une zone Nf, sauf disposition différente d’un PPRIF :
+- une distance d'au moins 25m par rapport à cette zone Nf est imposée aux constructions nouvelles ;
+- une implantation différente est admise pour permettre le respect de ce retrait ;
+- dans la mesure du possible, les extensions des constructions ne doivent pas aggraver la situation existante ;
+- concernant les constructions visées 2.3.1. Piscines et constructions annexes à l'habitation de faibles
+dimensions, seules les piscines sont autorisées dans ce retrait.
+2.3.4.3. Règles particulières pour la prise en compte et la mise en valeur des éléments
+naturels, bâtis et paysagers
+Une implantation différente de celle fixée au "2.2. Dispositions réglementaires - cas général" peut être imposée
+en présence d’un Espace Boisé Classé, d’un arbre isolé, d’une servitude établie au titre du Code du Patrimoine
+et/ou de l'environnement, ou d’une "protection patrimoniale" établie au titre du PLU 3.1 repérés au plan de
+zonage.
+Peuvent également justifier d’une implantation différente de celle fixée au "2.2. Dispositions réglementaires -
+cas général" :
+- une masse végétale qualitative du point de vue paysager et/ou écologique (repérée ou non), qu’elle soit
+arborée (constituée d’un ou plusieurs arbres) et/ou arbustive ;
+- une zone humide (repérée ou non) ;
+- une construction remarquable (repérée ou non) du point de vue architectural, historique ou culturel ;
+- un élément bâti du patrimoine vernaculaire (puits bâti, chemin creux, muret, croix de chemin…) ;
+- afin de préserver l’harmonie du plan d’ensemble initial, un groupement d’habitation ou un ensemble bâti
+d’habitations architecturalement homogène.
+Si elles existent, des dispositions particulières fixées au document traitant des "dispositions relatives à
+l’environnement et aux continuités écologiques, aux paysages et au patrimoine" du présent règlement doivent
+être respectées.
+Le projet doit être conçu de manière à s’intégrer dans les perspectives urbaines et paysagères, à mettre en
+valeur les éléments protégés, à conserver ou à renforcer les continuités écologiques repérée et/ou la zone
+humide...
+2.3.5. Hauteurs différentes
+Dans le cas d’un projet implanté en limite de deux zones, si la hauteur H ou H de la zone limitrophe est inférieure
+F T
+à celle de la zone où se situe le projet, une hauteur inférieure à celle autorisée règlementairement peut être
+imposée afin d’assurer une transition harmonieuse entre les hauteurs ou gabarits fixés pour chacune des zones.
+La hauteur H peut être augmentée de 2,50 m pour réaliser :
+- soit un niveau complet semi-enterré destiné au stationnement des véhicules ;
+- soit une sur-hauteur du rez-de-chaussée affectée à une activité de commerce ou d’artisanat, dès lors que cette
+activité occupe au moins 50 % de la surface du rez-de-chaussée.
+Lorsqu’une construction nouvelle, une extension et/ou une surélévation s'adosse à une construction existante,
+dont les hauteurs sont supérieures aux hauteurs H et H autorisées, la hauteur maximum de la construction
+F T
+nouvelle, de l'extension et/ou de la surélévation peut atteindre ces hauteurs différentes sans les dépasser.
+11e modification du PLU 29
+
+---
+
+## Page 328
+
+Zone UM 8
+Règlement pièces écrites
+Dans le cas d’une construction existante régulièrement édifiée, dont les hauteurs sont supérieures aux hauteurs
+H et H autorisées, toute extension et/ou surélévation peut atteindre ces hauteurs différentes sans les dépasser.
+F T
+Pour les extensions et surélévations, ces règles s’appliquent nonobstant les règles d’implantation.
+Dans le cas d'un terrain en bordure d'une voie ou emprise publique en pente, la hauteur de la construction au droit
+de cette voie ou emprise est mesurée par séquences de 20 m maximum à partir de la limite séparative située au
+point le plus haut, et au milieu de chacune des séquences.
+Dans le cas d'un terrain en pente, la hauteur de la construction est mesurée par séquence de 20 m maximum à
+partir du point le plus haut et au milieu de chacune des séquences.
+Dans les zones susceptibles d'être exposées au risque inondation repérées au plan de zonage :
+- les hauteurs maximum des constructions sont définies à partir de la cote de seuil fixée pour assurer la protection
+contre le risque d'inondation ;
+- pour les constructions existantes à usage d'habitation, la création d'un étage refuge est autorisée si les hauteurs
+imposées dans la zone ne le permettent pas. L'étage refuge correspond à un niveau supplémentaire d'une hauteur
+maximum de 3 mètres sans création de nouveaux logements.
+Dans le cas de sols pollués, le niveau du sol de référence sera celui issu de la réalisation des mesures de dépollution
+et/ou de décontamination.
+Une hauteur différente peut être autorisée dès lors que l’indice Bonus de hauteur (BH) est porté au plan de zonage.
+- Si le projet présente un EPT augmenté d’au moins 20 points par rapport à l’EPT requis règlementairement (fixé au
+2.2 ou au plan de zonage), la hauteur initialement autorisée peut être augmentée d’un attique
+- Si le projet présente un EPT augmenté d’au moins 20 points par rapport à l’EPT requis règlementairement et un
+coefficient de végétalisation augmenté d’au moins 10 points par rapport au coefficient de végétalisation requis
+règlementairement, la hauteur initialement autorisée peut être augmentée d’un étage
+Dans tous les cas la hauteur H ne peut être augmentée de plus de 4 mètres par rapport à la hauteur initialement
+autorisée.
+2.4. Aspect extérieur des constructions et aménagement de leurs
+abords
+2.4.1. Aspect extérieur des constructions
+2.4.1.1. Dispositions générales
+La situation, l’orientation des constructions, leur architecture, leurs dimensions et leur aspect extérieur doivent
+être adaptés :
+- au caractère et à l’intérêt des lieux avoisinants ;
+- aux sites ;
+- aux paysages naturels ou urbains ;
+11e modification du PLU 30
+
+---
+
+## Page 329
+
+Zone UM 8
+Règlement pièces écrites
+- à la conservation des perspectives monumentales ;
+- aux exigences liées à la conception bioclimatique (orientation, dimensionnement, protections solaires,
+circulation de l’air…).
+La double orientation des logements doit être privilégiée lorsque la configuration du terrain le permet.
+Les constructions nouvelles et les travaux sur constructions existantes concernés par une "protection
+patrimoniale" repérée au plan de zonage, doivent respecter les dispositions particulières fixées au document
+traitant des "dispositions relatives à l’environnement et aux continuités écologiques, aux paysages et au
+patrimoine" du présent règlement.
+Dès lors qu'une construction nouvelle est édifiée à proximité d'une construction concernée par une "protection
+patrimoniale", sur la même unité foncière ou sur une unité foncière contiguë, elle doit prendre en compte cette
+dernière de manière à ne pas remettre en cause son intérêt architectural, culturel et/ou historique (par
+exemple en termes d'implantations, de volumes, de proportions, de matériaux et de teintes,
+d'accompagnements paysagers).
+Toutes les constructions implantées sur un même terrain doivent être réalisées avec soin et en tenant compte
+de la construction principale.
+Sauf impossibilité technique, les dispositifs nécessaires à la production et l’utilisation des énergies
+renouvelables (tels que les capteurs solaires) doivent prendre en compte la composition architecturale des
+constructions. Les dispositifs non encastrés sont autorisés.
+- Matériaux
+Les matières réfléchissant la lumière (Albédo élevé) et de teinte claire sont à privilégier afin de limiter le
+phénomène d’îlot de chaleur.
+Le choix des matériaux et des couleurs doit se faire de manière à bien s’intégrer dans le respect de
+l’environnement bâti. Aucun matériau destiné à être recouvert ne doit rester à nu.
+L’utilisation de matériaux naturels, renouvelables, recyclables, de réemploi, ou biosourcés (issus de matières
+naturelles) doit être privilégiée.
+- Toiture
+Les installations techniques situées en toiture (tels que locaux d’ascenseur, conduits et gaines de ventilation...)
+doivent être intégrées ou traitées de manière à réduire leur impact visuel depuis le sol et depuis les
+constructions voisines plus hautes.
+Dans le cas de la réalisation d’une toiture terrasse, sa végétalisation et/ou l’implantation de panneaux
+photovoltaïques solaires doivent être privilégiées.
+- Façades
+Toutes les façades des constructions d'angle ou établies sur un terrain riverain de plusieurs voies, ainsi que les
+pignons de toutes les constructions doivent recevoir un traitement de qualité équivalente.
+Des protections solaires externes doivent être prévues sur les baies ensoleillées (exposées d’est en ouest en
+passant par le sud), adaptées à leur taille et à leur exposition, sans entraver l’ensoleillement en hiver.
+Dans la mesure du possible :
+- les branchements et raccordements doivent être enterrés ou posés sur les façades de la façon la moins visible
+possible ;
+- le parcours des descentes d’évacuation des eaux pluviales s’inscrit dans la composition des façades ;
+- les réservations pour les coffrets de l’ensemble des branchements nécessaires doivent être prévues dans les
+façades ou sur les clôtures ;
+11e modification du PLU 31
+
+---
+
+## Page 330
+
+Zone UM 8
+Règlement pièces écrites
+- les dispositifs techniques tels que les appareils de climatisation et de chauffage ne doivent pas être visibles
+depuis l’espace public. Ils sont localisés à l'intérieur des constructions ou à défaut sur les façades latérales ou
+arrière.
+2.4.1.2. Constructions nouvelles
+Dans les secteurs présentant une unité architecturale, la volumétrie et la modénature des nouvelles
+constructions doivent établir la continuité des éléments ou ménager d'éventuelles transitions, sans remettre
+en cause le gabarit fixé.
+Ainsi, les constructions nouvelles doivent s’intégrer à la séquence de voie dans laquelle elles s’insèrent en
+tenant compte des caractéristiques des constructions avoisinantes, sur les deux rives de la voie, et notamment :
+- de la composition des façades limitrophes ;
+- des rythmes horizontaux (corniches, bandeaux soulignant les niveaux etc.) ;
+- de la volumétrie des toitures.
+2.4.1.3. Constructions existantes
+Les réhabilitations, surélévations ou extensions doivent être conçues de manière à s'intégrer
+harmonieusement au bâti en privilégiant les principes de composition des façades de la construction (rythmes
+verticaux, proportions, modénature) ainsi que le volume et le traitement de la toiture.
+Pour les constructions comprises dans une séquence présentant une unité architecturale, les travaux de
+ravalement, de surélévation ou d'extension doivent notamment tenir compte des éléments de composition
+dominants, lignes de modénature, de la qualité des matériaux, traitement des toitures.
+Dès lors qu’une construction présente un intérêt architectural au regard notamment des matériaux constructifs
+employés, de sa composition, de son ordonnancement, tous travaux réalisés, y compris les ravalements,
+doivent mettre en valeur les caractéristiques de ladite construction. Ces dispositions ne font pas obstacle à la
+réalisation d’extensions de conception architecturale contemporaine, dès lors que sont mis en valeur les
+éléments d’intérêt de la construction initiale.
+Les nouveaux percements doivent s'inscrire au mieux dans l'harmonie de la composition de la façade.
+La pose des mécanismes de fermeture des baies (volets roulants, rideaux de fer…) ne doit pas dénaturer la
+composition architecturale des façades et la qualité des percements.
+Dans le cadre de la mise en place d'une isolation par l'extérieur, la surépaisseur et/ou la surélévation doivent
+être adaptées aux modes constructifs et aux caractéristiques techniques et architecturales de la façade et/ou
+de la toiture et elle ne doit pas porter atteinte à la qualité architecturale du bâtiment et à son insertion dans le
+cadre bâti environnant.
+2.4.1.4. Rez-de-chaussée et devantures en façade sur l'espace public
+Le traitement des rez-de-chaussée bordant le domaine public doit éviter le plus largement possible les locaux
+aveugles en façade et limiter les parties pleines, préjudiciables à la qualité de l’ambiance urbaine. Ils doivent
+présenter des rythmes, des jeux de matières et de teintes, des transparences. Le traitement de leur façade doit
+être cohérent avec les niveaux des étages supérieurs.
+2.4.2. Clôtures
+Les matières réfléchissant la lumière (Albédo élevé) et de teinte claire sont à privilégier afin de limiter le phénomène
+d’îlot de chaleur (exception faite des grillages).
+Les dispositifs de clôture, les matériaux utilisés à cette fin, leur aspect et leur teinte doivent permettre une bonne
+intégration dans les séquences urbaines et paysagères. Les clôtures doivent être traitées en harmonie avec la
+construction principale. Aucun matériau destiné à être recouvert ne doit rester à nu.
+11e modification du PLU 32
+
+---
+
+## Page 331
+
+Zone UM 8
+Règlement pièces écrites
+Les règles concernant les clôtures ne s'appliquent pas en cas d'impératifs liés au fonctionnement ou à la sécurité
+des équipements publics ou d'intérêt collectif.
+Lorsque le terrain est exposé à un risque d'inondation, les clôtures doivent être réalisées de manière à ne pas
+entraver la libre circulation des eaux.
+Lorsque le terrain est concerné par une servitude d’utilité publique, des prescriptions différentes de celles ci-
+dessous peuvent être imposées.
+2.4.2.1. Clôtures existantes
+Le maintien et la restauration des clôtures maçonnées en pierre de taille, en moellons, les grilles en fer forgé
+anciennes doivent être privilégiés.
+Dans le cas de travaux conduisant à la démolition totale ou partielle d’une clôture, identifiée au document
+traitant des "dispositions relatives à l'environnement et aux continuités écologiques, aux paysages et au
+patrimoine" du présent règlement, la reconstruction à l’identique est imposée en tout ou partie.
+Lors de travaux d'élargissement d'emprise de voirie conduisant à la démolition d'une clôture, celle-ci peut être
+reconstruite à l'identique suivant le nouvel alignement dès lors que la clôture initiale a été régulièrement
+autorisée.
+Dans les autres cas, les dispositions relatives aux clôtures nouvelles s’appliquent.
+2.4.2.2. Clôtures nouvelles
+Dans ce cadre, la clôture sur le domaine public ou dans les marges de recul imposées doit être réalisée à l'aide :
+- soit d’un mur plein d’une hauteur inférieure ou égale à 1,20 m ;
+- soit d'un dispositif à claire-voie posé le cas échéant sur un mur bahut de 1 m de hauteur maximum. Le tout
+ne peut excéder au total 1,60 m.
+Cette clôture est de préférence doublée d'une haie arbustive d’essences variées, endogènes, non allergènes,
+non invasives et économes en eau.
+Le portail pourra avoir une hauteur différente, en harmonie avec le reste de la clôture.
+Au titre de la "trame bleue" et/ou de la "trame verte", des dispositions particulières sont fixées au document
+traitant des "dispositions relatives à l’environnement et aux continuités écologiques, aux paysages et au
+patrimoine" du présent règlement. Dans les marges inconstructibles définies, les murs pleins sont interdits.
+Seuls les dispositifs de clôture permettant une libre circulation des espèces animales (petite faune) et un
+écoulement naturel de l'eau sont autorisés (grillages, piquets bois disjoints, etc.). Les clôtures doivent être
+végétalisées en utilisant des espèces de préférence variées, en majorité caduques, buissonnantes et/ou
+arbustives. Ces dispositions s’appliquent dans les espaces boisés classés (EBC) et les plantations à réaliser (PAR)
+identifiés au plan de zonage.
+En limites séparatives
+Au-delà d'une marge de recul de 3 m minimum (qui permet un raccordement harmonieux avec la clôture sur
+VEP), la hauteur totale des clôtures ne peut excéder 2 m. Elles pourront être doublées d'un traitement végétal
+d'espèces en majorité caduques, buissonnantes et/ou arbustives.
+En bordure d'une zone A ou N ou en présence d’un EBC ou d’une protection paysagère les murs pleins sont
+interdits. Seuls les dispositifs de clôture permettant une libre circulation des espèces animales (petite faune) et
+un écoulement naturel de l'eau sont autorisés (grillages, piquets bois disjoints, etc.). Ces clôtures sont de
+préférence doublées d’une haie.
+11e modification du PLU 33
+
+---
+
+## Page 332
+
+Zone UM 8
+Règlement pièces écrites
+2.4.3. Affouillements et exhaussements du sol naturel
+Dès lors qu’ils sont autorisés, les affouillements et les exhaussements du sol naturel doivent être limités et traités
+de manière à favoriser l'infiltration naturelle des eaux de pluie sur la parcelle pour éviter toute aggravation de
+l'écoulement naturel sur les fonds voisins. Ils doivent être conçus afin de permettre une bonne insertion dans les
+perspectives urbaines et paysagères.
+2.4.4. Aménagement des abords et plantations
+Les matières réfléchissant la lumière (Albédo élevé) et de teinte claire sont à privilégier afin de limiter le phénomène
+d’îlot de chaleur.
+2.4.4.1. Espaces affectés au stationnement, voiries, constructions semi-enterrées
+Le traitement des espaces affectés au stationnement, des voiries, des constructions semi-enterrées et des
+accès doit être soigné. Suivant le contexte urbain et paysager, la gestion des eaux pluviales en surface, sous
+formes de noues doit être privilégiée.
+Les voies réalisées dans le cadre des opérations et les aires de stationnement doivent recevoir un traitement
+paysager en harmonie avec l'ensemble du traitement du projet. Elles doivent notamment être conçues de
+manière à permettre un cheminement facile, sûr et de qualité pour les piétons et les cyclistes. Elles doivent
+être conçues de manière à encourager la mutualisation et le partage de stationnement ainsi que l’autopartage.
+Les dalles des toitures des parkings ou équipements enterrés et semi-enterrés doivent être traitées comme
+des terrasses accessibles ou plantées. Les dalles des toitures des parkings ou équipements en rez-de-chaussée,
+si elles sont attenantes à une construction plus haute, sont revêtues ou plantées de façon à limiter leur impact
+visuel.
+Les aires de stationnement de 3 places de stationnement et plus sont soit couvertes d’ombrières
+photovoltaïques soit plantées, à raison :
+- d’un arbre de petit développement minimum pour 3 places ;
+- et/ou d’un arbre de moyen ou grand développement pour 4 places.
+Les arbres et les ombrières photovoltaïques seront positionnés pour limiter l’échauffement des surfaces
+minérales et/ou des véhicules avec leur ombre portée.
+Les parties des aires de stationnement couvertes par des dispositifs de production d’énergie solaire ne seront
+pas prises en compte dans ce calcul.
+Sauf contre-indication liée à la nature du sol, au moins 50% des espaces dédiés au stationnement devront être
+réalisés en matériaux semi-perméables ou aux joints enherbés (exemples : modules alvéolaires, pas japonais,
+pavés ou dalles non jointées sur couche de gravier/sable…).
+Les aires de stationnement supérieures ou égales à 10 places et non couvertes d’ombrières photovoltaïques
+ne doivent pas être traitées d'un seul tenant, sans création de séquences plantées en pleine terre permettant
+d'en limiter l'impact visuel. Sans compromettre, le cas échéant, les dispositifs d’évacuation des eaux pluviales
+réglementairement exigés, ces séquences seront notamment composées d'arbres de petit et de moyen
+développement, de haies champêtres ou de treilles végétales en privilégiant les espèces endogènes,
+dépolluantes et non-allergènes.
+Ces aires doivent s’appuyer sur les caractéristiques du projet et les composantes du site préexistant, en tenant
+compte notamment de l'implantation des constructions avoisinantes, de la topographie, des masses végétales
+(composées d’un ou plusieurs arbres) existantes ou à créer, etc.
+11e modification du PLU 34
+
+---
+
+## Page 333
+
+Zone UM 8
+Règlement pièces écrites
+2.4.4.2. Aménagements dans la marge de recul
+Les aménagements réalisés dans les marges de recul doivent recevoir un traitement soigné. Ils doivent
+favoriser l'infiltration naturelle de l'eau de pluie, dans le respect des normes qualitatives en vigueur.
+Dans les marges de recul supérieures ou égales à 5 m, les plantations doivent comporter des arbustes et des
+arbres en privilégiant les espèces endogènes, dépolluantes et non-allergènes.
+En application du "2.1.2. Implantation des constructions", au paragraphe "Recul", dans une bande de 5 m à
+compter des voies et emprises publiques, il est autorisé :
+- une seule place de stationnement ;
+- les places de stationnement réservées aux personnes à mobilité réduite exigées par la réglementation en
+vigueur.
+Dans le cas d’une opération de logements individuels groupés implantés en continu, une place de
+stationnement peut être autorisée au droit de chaque logement.
+2.4.4.3. Espaces extérieurs affectés au stockage
+Les espaces extérieurs de stockage doivent recevoir un traitement soigné et adapté, permettant d'en limiter
+l'impact visuel depuis les voies et espaces ouverts à tout type de circulation publique et depuis les parcelles
+voisines.
+Des matériaux poreux ou autres dispositifs perméables ou semi-perméables à l’eau seront privilégiés s’ils ne
+sont pas destinés à stocker des matières polluantes.
+2.4.4.4. Aménagement paysager et plantations
+Le projet paysager doit s’appuyer sur :
+- les caractéristiques du projet de construction (proportions…) ;
+- les composantes du site préexistant, en tenant compte notamment de l'implantation des constructions et des
+espaces extérieurs avoisinants, de la forme de la parcelle, de la topographie, des arbres qui participent à la
+qualité du paysage.
+Le traitement des espaces affectés au projet doit être soigné. Suivant le contexte urbain et paysager, la gestion
+des eaux pluviales en surface, sous formes de noues ou de fossés paysagés infiltrants ou drainants doit être
+privilégiée. Les aménagements empêcheront la formation d’eaux stagnantes dont la présence peut constituer
+des gîtes larvaires et participer à la prolifération des moustiques.
+Les espaces extérieurs doivent être positionnés et conçus pour favoriser les continuités écologiques.
+Dans le cas d’une opération de plus de 5 logements, 20% des EPT requis règlementairement sont configurés
+pour permettre un usage collectif.
+Avant, pendant et après la réalisation du projet, l’état sanitaire du ou des arbres conservés ne doit pas être
+compromis de quelque façon que ce soit. Aucune construction ou installation ne peut être réalisée sous le
+houppier des arbres maintenus ou plantés. Cette surface doit rester perméable.
+Dans le cas des arbres plantés sur les aires de stationnement, cette surface peut être en partie semi-perméable.
+Sont considérés comme :
+- arbres de petit développement : les sujets de 4 à 8 m de hauteur à l'âge adulte ;
+- arbres de moyen développement : les sujets de 8 à 15 m de hauteur à l'âge adulte ;
+- arbres de grand développement : les sujets de plus de 15 m de hauteur à l'âge adulte.
+Des essences endogènes, non allergènes et non invasives, support de biodiversité et peu consommatrices
+d’eau sont privilégiées.
+11e modification du PLU 35
+
+---
+
+## Page 334
+
+Zone UM 8
+Règlement pièces écrites
+Pour les constructions neuves et dans le cadre d’une augmentation de l’emprise bâtie de plus de 25 m² d’une
+construction existante, les EPT requis réglementairement doivent, a minima, comporter un arbre de petit
+développement pour 40 m² d’espace en pleine terre et/ou un arbre de moyen développement pour 80 m².
+Les arbres doivent être plantés à une distance suffisante des constructions pour permettre à leur système
+racinaire de se développer. Cette distance est calculée en fonction de l’essence de l’arbre, sans pouvoir être
+inférieure à 2m.
+Les plantations des arbres doivent prendre en compte le fonctionnement des solutions compensatoires ainsi
+que le système d’assainissement individuel et les dispositifs de géothermie horizontale de surface.
+Les arbres dont le tronc présente une circonférence supérieure ou égale à 1,60 m (mesurée à 1,30m de hauteur
+du sol) doivent être préservés sauf si leur état sanitaire représente un danger.
+Lorsqu'un arbre de moyen ou grand développement d’une essence non invasive est coupé, deux sujets qui
+auront un gabarit équivalent à l’âge adulte doivent être replantés sur le terrain, sous réserve de la conformité
+aux règles de droit civil et sauf disposition différente liée à une autorisation de défrichement au titre du code
+forestier.
+- Plantations à réaliser
+Les espaces repérés au plan de zonage devant faire l'objet de Plantations à Réaliser (PAR) doivent être plantés
+d'arbres ou d'arbustes adaptés au site, au projet et à la nature du sol.
+Les plantations doivent permettre de constituer une masse arborée et / ou arbustive conséquente à l'âge
+adulte. Les distances entre les plantations doivent être compatibles avec les voies ou cheminements d'accès,
+les espaces nécessaires à l'entretien des ouvrages et la sécurité des riverains.
+Dans les PAR situés en bord de cours d’eau et le long des limites séparatives d’un terrain, les plantations en
+baliveaux et/ou en cépées sont admises.
+Dans tous les cas, les plantations doivent être réalisées avec des essences variées privilégiant les espèces
+endogènes, dépolluantes et non-allergènes.
+11e modification du PLU 36
+
+---
+
+## Page 335
+
+Zone UM 8
+Règlement pièces écrites
+3. Desserte par les réseaux et services urbains
+3.1. Desserte par la voirie
+3.1.1. Définition de la desserte
+La voie constitue la desserte du terrain d'assiette du projet.
+3.1.2. Conditions de desserte
+Qu'elles soient publiques ou privées, lors de la création de voies nouvelles ou de la requalification/élargissement
+de voies existantes, les emprises, autorisées ou imposées, doivent tenir compte :
+- du caractère des lieux et des composantes paysagères et naturelles environnantes ;
+- des conditions de sécurité des accès et des usagers ;
+- de la vocation de ces voies ;
+- des services qu'elles doivent permettre d'assurer.
+Leur dimensionnement et leur traitement doivent être adaptés aux usages attendus suivants :
+- les "voiries à vocation dominante des déplacements" (liaisons entre les territoires permettant prioritairement
+l'écoulement du trafic) : la largeur d’emprise de ces voies est adaptée à leur usage, à l’existence ou non de
+transports en commun et de stationnement, sans pour autant être inférieure à 12,5 m ;
+- les "voiries à vocation relationnelle et de proximité" (voies locales de desserte au sein d'un quartier ou d'un îlot) :
+la largeur d’emprise de ces voies est adaptée au contexte urbain, notamment aux marges de recul des
+constructions, sans pour autant être inférieure à 6,5 m pour les voies à sens unique et à 8,5 m pour les voies à
+double sens ;
+- les "perméabilités vertes et douces" (sentes, venelles, liaisons douces intra-îlots ou intra-quartier sans circulation
+automobile). Elles ne peuvent à elles seules constituer la desserte du terrain d’assiette du projet. L’utilisation de
+revêtements de couleur claire, semi-perméable ou aux joints enherbés (exemples : modules alvéolaires, pavés
+perméables, pierres concassées…) doit être privilégiée.
+Les caractéristiques techniques et paysagères des voies, y compris les plantations, doivent être adaptées à
+l'importance et à la nature du projet et à tous les modes de déplacement, tout en veillant à limiter ou corriger les
+incidences thermiques négatives des matériaux utilisés. Elles doivent permettre notamment d'assurer, la desserte
+du terrain d'assiette du projet par les réseaux nécessaires à l'opération, la circulation des services de sécurité,
+l'utilisation des engins et matériels de lutte contre l'incendie, la circulation et l'utilisation des engins d'entretien, la
+circulation et l'utilisation des véhicules de ramassage des ordures ménagères.
+Les voies doivent en outre être conçues pour s'intégrer à terme au maillage viaire environnant et participer à une
+bonne desserte du quartier. Si le contexte urbain ou naturel ne permet pas le maillage de la voirie :
+- pour les véhicules motorisés, les impasses sont admises. Une largeur d’emprise de 8,5 m minimum est exigée.
+Par ailleurs, un dispositif de retournement est imposé. Il doit être adapté en fonction de la longueur de l'impasse
+et de la desserte, ou non, par les services urbains (collecte des déchets, etc.) ;
+- des liaisons inter-quartiers végétalisées facilement accessibles par les piétons et les cyclistes doivent être
+recherchées. Dans tous les cas, elles sont assurées en toute sécurité.
+11e modification du PLU 37
+
+---
+
+## Page 336
+
+Zone UM 8
+Règlement pièces écrites
+3.2. Accès
+3.2.1. Définition de l'accès
+L'accès correspond soit à la limite donnant directement sur la voie (portail, porte de garage...), soit à l'espace tel
+que le porche ou la portion de terrain (bande d'accès ou servitude de passage) par lequel les véhicules pénètrent
+sur le terrain d'assiette du projet depuis la voie de desserte.
+3.2.2. Conditions d'accès
+Tout accès doit permettre d'assurer la sécurité de ses utilisateurs ainsi que celle des usagers des voies, quel que
+soit leur mode de déplacement.
+Cette sécurité est appréciée compte tenu, notamment, de la position de l'accès, de sa configuration ainsi que de la
+nature et de l'intensité du trafic.
+Le nombre et la localisation des accès devront être déterminés en tenant compte :
+- des besoins liés au bon fonctionnement interne de l'opération : nature, taille, foisonnement des activités ;
+- des contraintes liées au bon fonctionnement du domaine public limitrophe : sécurité de circulation des véhicules
+motorisés, accessibilité, sécurité et confort des circulations piétonnes, offre de stationnement public, offre et
+aménagements existants de transport collectif (abri, arrêt, voie tramway)... ;
+- de la végétation présente sur la parcelle ainsi que sur le domaine public.
+De manière générale, les accès mutualisés sont à privilégier.
+Dans le cas de plusieurs accès indépendants au sein d'une même opération, ceux-ci seront dans la mesure du
+possible regroupés 2 par 2.
+Lorsque le terrain est desservi par plusieurs voies, l'accès est établi sur la voie où la gêne pour la circulation est
+moindre.
+Il doit être situé à une distance d'au moins 10 m des intersections des voies de desserte. Toutefois, pour les terrains
+d'angle dont la façade sur chaque voie est inférieure ou égale à 14 m et pour les terrains existants situés à moins
+de 10 m de l'intersection des voies, l'accès doit être localisé dans la partie la plus éloignée de l'angle.
+Sauf impossibilité technique, le choix de la localisation des rampes d'accès aux parkings enterrés ou semi-enterrés
+doit privilégier la moindre gêne pour les constructions contiguës (intégration à la construction, insertion dans la
+marge de recul en retrait des limites séparatives...).
+Lorsque cet accès débouche directement sur la voie de desserte ouverte au public, la rampe d’accès doit comporter
+sur ses 5 premiers mètres à partir de la limite de l’emprise, un plateau de 4 m de 5% de pente maximum, sauf
+disposition différente particulière liée au PPRI.
+Pour les constructions à destination d'habitation qui comptent un seul logement, les accès ont une largeur
+comprise entre 2,40 m et 3 m.
+Pour les constructions à destination d'habitation de plus d'un logement, et pour les constructions relevant des
+autres destinations :
+- les accès ont une largeur égale à 3 m avec une circulation en sens unique alterné ;
+- les accès ont une largeur égale à 5,50 m avec une circulation à double sens.
+Une largeur différente d'accès peut être exceptionnellement autorisée en tenant compte des besoins et contraintes
+liés tant au bon fonctionnement interne de l'opération qu'à celui du domaine public limitrophe.
+11e modification du PLU 38
+
+---
+
+## Page 337
+
+Zone UM 8
+Règlement pièces écrites
+3.2.3. Bande d'accès ou servitude de passage
+La bande d'accès et la servitude de passage correspondent à la portion de terrain permettant l'accès à un ou des
+terrains en second rang, qui ne sont pas desservies directement par une voie ou une emprise publique.
+Pour rendre constructibles les terrains concernés, elles doivent être dimensionnées pour permettre d'assurer la
+sécurité de leurs utilisateurs compte tenu notamment de la position de l'accès sur la voie, de sa configuration, ainsi
+que de la nature et de l'intensité du trafic. Elles doivent permettre l'approche du matériel de lutte contre l'incendie.
+Elles doivent recevoir un traitement adapté au caractère des lieux et de leur environnement, notamment paysagé,
+et peuvent être mutualisées.
+L’utilisation de revêtements de couleur claire, semi-perméable ou aux joints enherbés (exemples : modules
+alvéolaires, pavés perméables, pierres concassées…) doit être privilégiée.
+Si ces bandes d'accès ou servitudes de passage existantes avant l'approbation du PLU 3.1 ne répondent pas aux
+conditions ci-dessus, seules les extensions et/ou surélévations mesurées sont autorisées. Lorsque la
+constructibilité par bande d'accès ou servitude de passage est interdite, seules les extensions et/ou surélévations
+mesurées sont autorisées sur les constructions de second rang.
+La constructibilité ou non d'un terrain desservi par une nouvelle bande d'accès ou servitude de passage est portée
+au plan de zonage.
+Les terrains enclavés par les aménagements du tramway peuvent être desservis par bande d'accès ou servitude
+de passage dans tous les cas.
+3.3. Desserte des terrains par les réseaux publics d'eau,
+d'assainissement, d'électricité et les réseaux de communication
+numérique
+3.3.1. Eau potable
+Tout terrain sur lequel une occupation ou une utilisation du sol est susceptible de requérir une alimentation en
+eau potable doit être desservi par un réseau respectant la réglementation en vigueur relative notamment à la
+pression et à la qualité.
+Les extensions et branchements au réseau d'alimentation en eau potable doivent être effectués conformément à
+la réglementation en vigueur.
+3.3.2. Eaux pluviales
+3.3.2.1. Généralités
+Tout terrain doit être aménagé avec des dispositifs permettant l'évacuation qualitative et quantitative des eaux
+pluviales. Ils doivent être adaptés à la topographie, à la nature du sous-sol et aux caractéristiques des
+constructions.
+Sous réserve des autorisations réglementaires éventuellement nécessaires, les eaux pluviales doivent
+prioritairement rejoindre directement le milieu naturel (par infiltration dans le sol ou rejet direct dans les eaux
+superficielles).
+A défaut, les eaux pluviales peuvent être rejetées gravitairement, suivant le cas, et par ordre de préférence, au
+caniveau, au fossé, dans un collecteur d'eaux pluviales ou un collecteur unitaire si la voie en est pourvue.
+Dans tous les cas, l'utilisation d'un système de pompage est proscrite à l’exception des pompes de reprise des
+rampes d’accès aux parkings souterrains.
+11e modification du PLU 39
+
+---
+
+## Page 338
+
+Zone UM 8
+Règlement pièces écrites
+Pour les constructions nouvelles et les extensions, dès lors que la surface imperméabilisée projetée est
+supérieure à 100 m², le projet présentera obligatoirement la solution retenue pour la gestion des eaux pluviales.
+Dans le cas d’un rejet final au caniveau, au fossé, dans un collecteur d'eaux pluviales ou un collecteur unitaire
+si la voie en est pourvue, le débit rejeté est plafonné à 3 l/s/ha.
+D'un point de vue qualitatif, les caractéristiques des eaux pluviales doivent être compatibles avec le milieu
+récepteur. La mise en place d'ouvrages de prétraitement de type dégrilleurs, dessableurs ou déshuileurs peut
+être imposée pour certains usages autres que domestiques. Les techniques à mettre en œuvre doivent être
+conformes aux règles de l'art et à la réglementation en vigueur.
+Les branchements au réseau collectif d'assainissement des eaux pluviales, dès lors qu'il existe, doivent être
+effectués conformément à la réglementation en vigueur.
+3.3.2.2. Rabattement d'eau de nappe
+Le principe général est le rejet direct vers le milieu naturel (sans transiter par les réseaux publics de collecte).
+De façon provisoire (dans le cadre de travaux par exemple) les rabattements d'eaux de nappe avec rejet vers
+les réseaux publics de collecte peuvent être acceptés selon la réglementation en vigueur.
+Les installations pérennes dédiées aux rabattements d'eaux de nappe avec rejet vers les réseaux publics de
+collecte d'eaux usées ou unitaires sont interdites. Néanmoins, ce type de rejet peut être exceptionnellement
+accepté vers les réseaux publics de collecte des eaux pluviales, selon la réglementation en vigueur.
+3.3.3. Assainissement
+3.3.3.1. Dans les secteurs d'assainissement collectif
+Dans les secteurs desservis ou prévus d’être desservis par un réseau collectif d'assainissement, tout terrain sur
+lequel une occupation ou utilisation du sol est susceptible d'évacuer des eaux résiduaires doit être raccordé au
+réseau public d'assainissement, conformément à la réglementation en vigueur. Ces secteurs figurent dans les
+annexes informatives du PLU 3.1.
+- Eaux usées domestiques :
+Si le secteur est desservi par un réseau collectif d'assainissement des eaux usées :
+- le raccordement des terrains supportant des constructions nouvelles au réseau collectif d'assainissement des
+eaux usées est obligatoire immédiatement ;
+- le raccordement des terrains supportant des constructions existantes au réseau collectif d'assainissement
+des eaux usées est obligatoire dans un délai de deux ans à compter de la mise en service du réseau public.
+Si le secteur n'est pas encore desservi, et dans l'attente de la mise en service du réseau collectif des eaux usées,
+les terrains doivent être assainis par un système d'assainissement autonome conforme à la réglementation en
+vigueur.
+- Eaux usées non domestiques :
+Tout déversement d’effluents agricoles ou d'eaux usées, autres que domestiques, dans le réseau public doit
+être préalablement autorisé conformément à la réglementation en vigueur.
+3.3.3.2. Dans les secteurs d'assainissement non collectif
+- Eaux usées domestiques :
+Dans les secteurs actuellement non équipés qu’il n’est pas prévu de desservir par le réseau collectif
+d'assainissement, tout terrain sur lequel une occupation ou utilisation du sol est susceptible d'évacuer des
+eaux résiduaires doit être assaini suivant un dispositif autonome conformément à la réglementation en
+vigueur. Ces secteurs figurent dans les annexes informatives du PLU 3.1.
+- Eaux usées non domestiques :
+Dans les secteurs actuellement non équipés qu’il n’est pas prévu de desservir par le réseau collectif
+d'assainissement d’eaux usées, les terrains doivent disposer de leur propre dispositif d'assainissement,
+proportionné aux besoins de l'activité et conformément à la réglementation en vigueur. Ces secteurs figurent
+dans les annexes informatives du PLU 3.1.
+11e modification du PLU 40
+
+---
+
+## Page 339
+
+Zone UM 8
+Règlement pièces écrites
+Les rejets vers le milieu naturel doivent faire l'objet d'une autorisation conformément à la réglementation en
+vigueur.
+3.3.3.3. Cas particuliers des eaux de piscines privées
+Le rejet des eaux des piscines doit être traité dans le respect de la règlementation en vigueur. Ainsi, les eaux
+de vidange doivent être prioritairement rejetées dans le milieu naturel après élimination des produits de
+désinfection.
+Par contre, les eaux de lavage (filtre...) sont assimilées à des eaux usées domestiques et doivent être traitées
+en conséquence.
+3.3.4. Alimentation en énergie et réseaux de communications
+D'une manière générale, les branchements et raccordements pour les réseaux d'alimentation en énergie et les
+réseaux de communication doivent être enterrés ou intégrés aux éléments bâtis ou paysagers.
+Pour les opérations de construction de trois logements ou plus, les réseaux d'alimentation en énergie et les réseaux
+de communications nécessaires doivent être enterrés jusqu'au point de raccordement situé en limite des voies ou
+emprises publiques.
+Lorsqu'ils sont posés en façades, ils doivent être intégrés aux lignes de composition de l'architecture.
+Les réservations pour les coffrets de l'ensemble des branchements nécessaires peuvent par ailleurs être prévues
+dans les façades ou sur les clôtures.
+3.3.5. Numérique
+D’une manière générale, toute construction neuve doit être conçue de manière à permettre le raccordement et la
+desserte intérieure au réseau de fibre optique très haut débit.
+Ainsi pour toute construction neuve il faut prévoir sur le terrain d’assiette de la construction un local technique de
+communication électronique conforme à la réglementation et à l’état de l’art, en matière de dimensionnement et
+de localisation, ainsi que les adductions nécessaires jusqu’au domaine public.
+3.4. Gestion des déchets
+Tout projet de construction nouvelle ou de réhabilitation, quelle que soit sa destination, doit prévoir pour la gestion
+des déchets du site, un lieu de stockage spécifique suffisamment grand et dimensionné de manière à recevoir et
+permettre de manipuler sans difficulté tous les récipients nécessaires à la gestion des déchets de 3 Flux différents : les
+recyclables, les bio déchets et les Ordures Ménagères Résiduelles.
+Les lieux destinés à la gestion des déchets sont situés et dimensionnés pour assurer le bon fonctionnement des
+contenants (bacs ou composteurs) : facile d’accès et facilement manipulable.
+Ces lieux de gestion des déchets, doivent être facilement accessibles depuis la voie ou l'emprise publique au regard des
+besoins particuliers liés à la collecte (largeur des voies, rayons de giration, neutralisation du stationnement…).
+Selon le choix du mode de collecte retenu en concertation avec le service gestionnaire, le dispositif devra comprendre :
+Selon le choix du mode de collecte retenu en concertation avec le service gestionnaire, le dispositif devra comprendre :
+- Pour une collecte en porte à porte :
+- un local de stockage des bacs clos et ventilé, facilement accessible des usagers de la construction ;
+- un point de regroupement, en bordure de la voie et complètement ouvert sur le domaine public pourra compléter
+le dispositif. Localement, la création d’un local de présentation fermé peut être acceptée (densité de logements
+collectés, etc.).
+11e modification du PLU 41
+
+---
+
+## Page 340
+
+Zone UM 8
+Règlement pièces écrites
+Les locaux de stockage des déchets indépendants des lieux d’habitation doivent recevoir un traitement paysager et
+architectural adéquat et être traités de façon à réduire leur impact visuel par un dispositif en harmonie avec les
+constructions principales (muret, panneau à claire-voie, haie compacte…).
+- Pour une collecte en apport volontaire : mobilier enterré ou semi-enterré, en bordure de la voie publique ou en cœur
+d’ilot via une voie de desserte spécifique avec contrôle d’accès.
+- Pour les bio déchets, selon le mode de tri à la source retenu, un espace permettant l’implantation de composteurs
+collectifs en extérieur, ou un espace pour des bacs dédiés à la collecte en porte à porte des bio déchets.
+3.5. Réseau de chaleur
+Lorsqu'il existe un réseau de chaleur classé desservant une opération et/ou une construction, les constructions neuves
+et les constructions faisant l'objet d'une réhabilitation importante doivent y être raccordées, dans les conditions
+définies par la procédure de classement.
+11e modification du PLU 42
+
+---
+

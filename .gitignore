@@ -10,10 +10,14 @@
 # Python and environment
 .env
 venv/
+.venv/
+.cache/
 __pycache__/
+.pytest_cache/
 # Generated indexes
 *.index
 *.faiss
+data/index/
 # LaTeX auxiliary files
 *.aux
 *.log

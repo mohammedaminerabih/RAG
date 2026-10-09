@@ -1,5 +1,8 @@
 # Manifeste des sources pour le projet RAG PLUi Bordeaux Métropole
-# Format: identifiant | titre | URL de téléchargement | version/date officielle | date de récupération | taille | SHA-256 | statut légal | rôle (règle ou contexte)
+# Format: identifiant | titre | page officielle | URL directe du fichier | version/date officielle | date de récupération | taille | SHA-256 | statut légal | rôle/périmètre
 
 # Règlement écrit officiel du PLUi de Bordeaux Métropole
-REG-2026-05-05-BDX | PLUi de Bordeaux Métropole - Règlement écrit | https://www.geoportail-urbanisme.gouv.fr/document/243300316_PLUi_20260505 | version 30, publiée et en vigueur depuis le 12 mai 2026 | 2026-10-06 | 147464697 octets | 41D0C2DDA5C6182A43A9032D8F1984B5E58EF6252B49DA16AF7E9D836F8A842C | Opposable | règle
+REG-2026-05-05-BDX | PLUi de Bordeaux Métropole - Règlement écrit par zones | https://www.geoportail-urbanisme.gouv.fr/document/by-id/0b6c6621184959caf3fa5b684f929657 | https://www.geoportail-urbanisme.gouv.fr/api/document/0b6c6621184959caf3fa5b684f929657/files/243300316_reglement_20260505.pdf | version 30, publiée et en vigueur depuis le 12 mai 2026 | 2026-10-06 | 147464697 octets | 41D0C2DDA5C6182A43A9032D8F1984B5E58EF6252B49DA16AF7E9D836F8A842C | Opposable | règle; pages PDF 303-340 extraites; le fichier est le règlement par zones, pas les dispositions communes hors chapitres de zone
+
+# Périmètre validé pour le prototype : questions de compréhension du texte UM8 seulement, sans analyse de conformité d'adresse. Les définitions communes de l'article 1.1 sont incluses. Le corpus n'est pas déclaré exhaustif pour les autres règles générales; toute question dépendant d'une carte, prescription, annexe ou règle absente doit recevoir une abstention.
+# Limite d'extraction revue le 2026-10-09 : la page PDF 324 a deux tableaux et un schéma. Les questions numériques nécessitant d'associer sans ambiguïté les valeurs des tableaux des articles 2.2.1 et 2.2.2 à leurs lignes/colonnes sont exclues jusqu'à normalisation structurée.

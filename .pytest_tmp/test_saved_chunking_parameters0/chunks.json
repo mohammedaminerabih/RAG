@@ -1,0 +1,10 @@
+{
+  "chunks": [],
+  "metadata": {
+    "total_chunks": 0,
+    "chunking_method": "hierarchical_sections",
+    "max_chunk_chars": 800,
+    "overlap_chars": 80,
+    "description": "Chunks réglementaires avec section et pages PDF réellement couvertes."
+  }
+}
